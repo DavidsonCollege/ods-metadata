@@ -1,0 +1,3968 @@
+<html><head>
+<title>Composite View Target: AR_FINAID_APPLICATION2</title>
+</head>
+<body bgcolor=#FFFFFF text=#000000>
+<FORM name="aform">
+<SCRIPT TYPE="text/javascript">
+<!--
+function gotoView() {
+    selnum = document.aform.groups.selectedIndex;
+    pagename = document.aform.groups[selnum].value;
+    window.location.href = pagename;
+}
+//-->
+</SCRIPT>
+<TABLE WIDTH="100%" BORDER=0>
+<TR>
+<TD Width="60%" ALIGN="RIGHT">
+<SMALL>Go To View:&nbsp;
+<SELECT name="groups" SIZE="1" onChange="return gotoView();">
+<OPTION value="">-- Select a View --
+<OPTION value="AA_ADVANCEMENT_RATING_COMP_target.html">AA_ADVANCEMENT_RATING
+<OPTION value="AA_ANNUAL_GIVING_COMP_target.html">AA_ANNUAL_GIVING
+<OPTION value="AA_CAMPAIGN_COMP_target.html">AA_CAMPAIGN
+<OPTION value="AA_CAMPAIGN_COMMENT_COMP_target.html">AA_CAMPAIGN_COMMENT
+<OPTION value="AA_CAMPAIGN_DESIGNATION_COMP_target.html">AA_CAMPAIGN_DESIGNATION
+<OPTION value="AA_CAMPAIGN_EXPENSE_COMP_target.html">AA_CAMPAIGN_EXPENSE
+<OPTION value="AA_CAMPAIGN_FUNDRAISER_COMP_target.html">AA_CAMPAIGN_FUNDRAISER
+<OPTION value="AA_CAMPAIGN_GIVING_HISTORY_COMP_target.html">AA_CAMPAIGN_GIVING_HISTORY
+<OPTION value="AA_CAMPAIGN_MAIL_COMP_target.html">AA_CAMPAIGN_MAIL
+<OPTION value="AA_CAMPAIGN_SOLICITATION_COMP_target.html">AA_CAMPAIGN_SOLICITATION
+<OPTION value="AA_CONSTITUENT_COMP_target.html">AA_CONSTITUENT
+<OPTION value="AA_CONSTITUENT_CONTACT_COMP_target.html">AA_CONSTITUENT_CONTACT
+<OPTION value="AA_CONSTITUENT_PLAN_COMP_target.html">AA_CONSTITUENT_PLAN
+<OPTION value="AA_CONSTITUENT_STAFF_ASSIGN_COMP_target.html">AA_CONSTITUENT_STAFF_ASSIGN
+<OPTION value="AA_CON_CONF_COMMENT_SUBJ_COMP_target.html">AA_CON_CONF_COMMENT_SUBJ
+<OPTION value="AA_CON_ENTITY_CONF_COMMENT_COMP_target.html">AA_CON_ENTITY_CONF_COMMENT
+<OPTION value="AA_DEGREE_COMP_target.html">AA_DEGREE
+<OPTION value="AA_DESIGNATION_COMP_target.html">AA_DESIGNATION
+<OPTION value="AA_DESIGNATION_ADJUSTMENT_COMP_target.html">AA_DESIGNATION_ADJUSTMENT
+<OPTION value="AA_DESIGNATION_ATTRIBUTE_COMP_target.html">AA_DESIGNATION_ATTRIBUTE
+<OPTION value="AA_DESIGNATION_CLASS_YEAR_COMP_target.html">AA_DESIGNATION_CLASS_YEAR
+<OPTION value="AA_DESIGNATION_COMMENT_COMP_target.html">AA_DESIGNATION_COMMENT
+<OPTION value="AA_DESIGNATION_COMMENT_SUBJ_COMP_target.html">AA_DESIGNATION_COMMENT_SUBJ
+<OPTION value="AA_DESIGNATION_FINAID_FUND_COMP_target.html">AA_DESIGNATION_FINAID_FUND
+<OPTION value="AA_DESIGNATION_GIVING_HISTORY_COMP_target.html">AA_DESIGNATION_GIVING_HISTORY
+<OPTION value="AA_DESIGNATION_ID_COMP_target.html">AA_DESIGNATION_ID
+<OPTION value="AA_DONOR_CATEGORY_COMP_target.html">AA_DONOR_CATEGORY
+<OPTION value="AA_EXCLUSION_COMP_target.html">AA_EXCLUSION
+<OPTION value="AA_FUNDING_INTEREST_COMP_target.html">AA_FUNDING_INTEREST
+<OPTION value="AA_GIFT_COMP_target.html">AA_GIFT
+<OPTION value="AA_GIFT_ASSOCIATED_ENTITY_COMP_target.html">AA_GIFT_ASSOCIATED_ENTITY
+<OPTION value="AA_GIFT_AUXILIARY_COMP_target.html">AA_GIFT_AUXILIARY
+<OPTION value="AA_GIFT_MATCHING_COMP_target.html">AA_GIFT_MATCHING
+<OPTION value="AA_GIFT_MEMO_COMP_target.html">AA_GIFT_MEMO
+<OPTION value="AA_GIFT_MULTIPLE_COMP_target.html">AA_GIFT_MULTIPLE
+<OPTION value="AA_GIFT_SOCIETY_COMP_target.html">AA_GIFT_SOCIETY
+<OPTION value="AA_INTEREST_COMP_target.html">AA_INTEREST
+<OPTION value="AA_MAIL_COMP_target.html">AA_MAIL
+<OPTION value="AA_MEMBERSHIP_COMP_target.html">AA_MEMBERSHIP
+<OPTION value="AA_MEMBERSHIP_DUES_COMP_target.html">AA_MEMBERSHIP_DUES
+<OPTION value="AA_MEMBERSHIP_INTEREST_COMP_target.html">AA_MEMBERSHIP_INTEREST
+<OPTION value="AA_ORGANIZATIONAL_CONSTITUENT_COMP_target.html">AA_ORGANIZATIONAL_CONSTITUENT
+<OPTION value="AA_ORGANIZATION_CONTACT_COMP_target.html">AA_ORGANIZATION_CONTACT
+<OPTION value="AA_ORGANIZATION_FUNDING_AREA_COMP_target.html">AA_ORGANIZATION_FUNDING_AREA
+<OPTION value="AA_PLEDGE_COMP_target.html">AA_PLEDGE
+<OPTION value="AA_PLEDGE_ASSOCIATED_ENTITY_COMP_target.html">AA_PLEDGE_ASSOCIATED_ENTITY
+<OPTION value="AA_PLEDGE_AUXILIARY_COMP_target.html">AA_PLEDGE_AUXILIARY
+<OPTION value="AA_PLEDGE_CONDITIONAL_COMP_target.html">AA_PLEDGE_CONDITIONAL
+<OPTION value="AA_PLEDGE_INSTALLMENT_COMP_target.html">AA_PLEDGE_INSTALLMENT
+<OPTION value="AA_PLEDGE_MATCHING_COMP_target.html">AA_PLEDGE_MATCHING
+<OPTION value="AA_PREVIOUS_EMPLOYMENT_COMP_target.html">AA_PREVIOUS_EMPLOYMENT
+<OPTION value="AA_PROJECT_INTEREST_COMP_target.html">AA_PROJECT_INTEREST
+<OPTION value="AA_PROSPECT_CONF_COMMENT_COMP_target.html">AA_PROSPECT_CONF_COMMENT
+<OPTION value="AA_PROSPECT_CONF_COMMENT_SUBJ_COMP_target.html">AA_PROSPECT_CONF_COMMENT_SUBJ
+<OPTION value="AA_PROSPECT_CONTACT_EXPENSE_COMP_target.html">AA_PROSPECT_CONTACT_EXPENSE
+<OPTION value="AA_PROSPECT_INFO_COMP_target.html">AA_PROSPECT_INFO
+<OPTION value="AA_PROSPECT_MOVES_MANAGEMENT_COMP_target.html">AA_PROSPECT_MOVES_MANAGEMENT
+<OPTION value="AA_PROSPECT_PROPOSAL_COMP_target.html">AA_PROSPECT_PROPOSAL
+<OPTION value="AA_PROSPECT_PROPOSAL_MASTER_COMP_target.html">AA_PROSPECT_PROPOSAL_MASTER
+<OPTION value="AA_PROSPECT_PROPOSAL_PROJECT_COMP_target.html">AA_PROSPECT_PROPOSAL_PROJECT
+<OPTION value="AA_PROSPECT_PROPOSAL_RESULT_COMP_target.html">AA_PROSPECT_PROPOSAL_RESULT
+<OPTION value="AA_PROSPECT_STAFF_ASSIGNMENT_COMP_target.html">AA_PROSPECT_STAFF_ASSIGNMENT
+<OPTION value="AA_RELATIONSHIP_COMP_target.html">AA_RELATIONSHIP
+<OPTION value="AA_SALUTATION_COMP_target.html">AA_SALUTATION
+<OPTION value="AA_SOLICITOR_COMP_target.html">AA_SOLICITOR
+<OPTION value="AA_SOLICITOR_ASSIGNMENT_COMP_target.html">AA_SOLICITOR_ASSIGNMENT
+<OPTION value="AA_SOLICITOR_ASSIGNMENT_RESULT_COMP_target.html">AA_SOLICITOR_ASSIGNMENT_RESULT
+<OPTION value="AA_SOLICITOR_ORGANIZATION_COMP_target.html">AA_SOLICITOR_ORGANIZATION
+<OPTION value="AA_SOLICITOR_ORG_COMMENT_COMP_target.html">AA_SOLICITOR_ORG_COMMENT
+<OPTION value="AA_SOLICITOR_ORG_FUNDRAISER_COMP_target.html">AA_SOLICITOR_ORG_FUNDRAISER
+<OPTION value="AA_SOL_ORG_FUNDRAISER_GOAL_COMP_target.html">AA_SOL_ORG_FUNDRAISER_GOAL
+<OPTION value="AA_SOL_ORG_GOAL_COMP_target.html">AA_SOL_ORG_GOAL
+<OPTION value="AA_SPECIAL_ACTIVITY_COMP_target.html">AA_SPECIAL_ACTIVITY
+<OPTION value="AA_SPECIAL_ACTIVITY_YEAR_COMP_target.html">AA_SPECIAL_ACTIVITY_YEAR
+<OPTION value="AA_SPECIAL_PURPOSE_GROUP_COMP_target.html">AA_SPECIAL_PURPOSE_GROUP
+<OPTION value="AA_VALIDATION_COMP_target.html">AA_VALIDATION
+<OPTION value="AA_YEAR_TYPE_DEFINITION_COMP_target.html">AA_YEAR_TYPE_DEFINITION
+<OPTION value="AE_ACCOUNTING_COMP_target.html">AE_ACCOUNTING
+<OPTION value="AE_APPROVAL_HISTORY_COMP_target.html">AE_APPROVAL_HISTORY
+<OPTION value="AE_AUTHORIZATION_COMP_target.html">AE_AUTHORIZATION
+<OPTION value="AE_CIRC_HEADER_STEP_COMP_target.html">AE_CIRC_HEADER_STEP
+<OPTION value="AE_CIRC_RECIP_NOTIF_COMP_target.html">AE_CIRC_RECIP_NOTIF
+<OPTION value="AE_DELEGATE_ASSIGNMENT_COMP_target.html">AE_DELEGATE_ASSIGNMENT
+<OPTION value="AE_EXPENSE_ITEM_COMP_target.html">AE_EXPENSE_ITEM
+<OPTION value="AE_EXPENSE_ITEM_TAX_COMP_target.html">AE_EXPENSE_ITEM_TAX
+<OPTION value="AE_ITINERARY_COMP_target.html">AE_ITINERARY
+<OPTION value="AE_PORTFOLIO_COMP_target.html">AE_PORTFOLIO
+<OPTION value="AE_PROFILE_COMP_target.html">AE_PROFILE
+<OPTION value="AE_REIMBURSEMENT_COMP_target.html">AE_REIMBURSEMENT
+<OPTION value="AE_STATUS_HISTORY_COMP_target.html">AE_STATUS_HISTORY
+<OPTION value="AF_ACCOUNT_ATTRIBUTES_ODS_COMP_target.html">AF_ACCOUNT_ATTRIBUTES_ODS
+<OPTION value="AF_ACCOUNT_HIERARCHY_COMP_target.html">AF_ACCOUNT_HIERARCHY
+<OPTION value="AF_ACCOUNT_HIERARCHY_FISCAL_COMP_target.html">AF_ACCOUNT_HIERARCHY_FISCAL
+<OPTION value="AF_ACCOUNT_INDEX_COMP_target.html">AF_ACCOUNT_INDEX
+<OPTION value="AF_ACCOUNT_TYPE_ATTRIBUTES_ODS_COMP_target.html">AF_ACCOUNT_TYPE_ATTRIBUTES_ODS
+<OPTION value="AF_ACTIVITY_ATTRIBUTES_ODS_COMP_target.html">AF_ACTIVITY_ATTRIBUTES_ODS
+<OPTION value="AF_ATTRIBUTE_SETS_ODS_COMP_target.html">AF_ATTRIBUTE_SETS_ODS
+<OPTION value="AF_BUDGET_AVAILABILITY_LEDGER_COMP_target.html">AF_BUDGET_AVAILABILITY_LEDGER
+<OPTION value="AF_BUDGET_DETAIL_COMP_target.html">AF_BUDGET_DETAIL
+<OPTION value="AF_CHART_ATTRIBUTES_ODS_COMP_target.html">AF_CHART_ATTRIBUTES_ODS
+<OPTION value="AF_CHECKS_COMP_target.html">AF_CHECKS
+<OPTION value="AF_CLAUSE_COMP_target.html">AF_CLAUSE
+<OPTION value="AF_ENCUMBRANCE_COMP_target.html">AF_ENCUMBRANCE
+<OPTION value="AF_ENCUMBRANCE_ACCOUNTING_COMP_target.html">AF_ENCUMBRANCE_ACCOUNTING
+<OPTION value="AF_ENCUMBRANCE_LEDGER_COMP_target.html">AF_ENCUMBRANCE_LEDGER
+<OPTION value="AF_ENDOWMENT_COMP_target.html">AF_ENDOWMENT
+<OPTION value="AF_ENDOWMENT_ATTRIBUTES_COMP_target.html">AF_ENDOWMENT_ATTRIBUTES
+<OPTION value="AF_ENDOWMENT_DIST_COMP_target.html">AF_ENDOWMENT_DIST
+<OPTION value="AF_ENDOWMENT_MARKET_VALUES_COMP_target.html">AF_ENDOWMENT_MARKET_VALUES
+<OPTION value="AF_ENDOWMENT_UNITS_COMP_target.html">AF_ENDOWMENT_UNITS
+<OPTION value="AF_FISCAL_PERIOD_COMP_target.html">AF_FISCAL_PERIOD
+<OPTION value="AF_FIXED_ASSET_ADJUSTMENT_COMP_target.html">AF_FIXED_ASSET_ADJUSTMENT
+<OPTION value="AF_FIXED_ASSET_ATTRIBUTES_COMP_target.html">AF_FIXED_ASSET_ATTRIBUTES
+<OPTION value="AF_FIXED_ASSET_DEPRECIATION_COMP_target.html">AF_FIXED_ASSET_DEPRECIATION
+<OPTION value="AF_FIXED_ASSET_FUNDING_SOURCE_COMP_target.html">AF_FIXED_ASSET_FUNDING_SOURCE
+<OPTION value="AF_FIXED_ASSET_ITEM_COMP_target.html">AF_FIXED_ASSET_ITEM
+<OPTION value="AF_FUND_ATTRIBUTES_ODS_COMP_target.html">AF_FUND_ATTRIBUTES_ODS
+<OPTION value="AF_FUND_HIERARCHY_COMP_target.html">AF_FUND_HIERARCHY
+<OPTION value="AF_FUND_HIERARCHY_FISCAL_COMP_target.html">AF_FUND_HIERARCHY_FISCAL
+<OPTION value="AF_FUND_TYPE_ATTRIBUTES_ODS_COMP_target.html">AF_FUND_TYPE_ATTRIBUTES_ODS
+<OPTION value="AF_GENERAL_LEDGER_COMP_target.html">AF_GENERAL_LEDGER
+<OPTION value="AF_GRANT_COMP_target.html">AF_GRANT
+<OPTION value="AF_GRANT_ATTRIBUTES_ODS_COMP_target.html">AF_GRANT_ATTRIBUTES_ODS
+<OPTION value="AF_GRANT_BILLING_DETAIL_COMP_target.html">AF_GRANT_BILLING_DETAIL
+<OPTION value="AF_GRANT_DEFERRED_COST_COMP_target.html">AF_GRANT_DEFERRED_COST
+<OPTION value="AF_GRANT_EVENT_COMP_target.html">AF_GRANT_EVENT
+<OPTION value="AF_GRANT_EVENT_STATUS_COMP_target.html">AF_GRANT_EVENT_STATUS
+<OPTION value="AF_GRANT_FUND_COMP_target.html">AF_GRANT_FUND
+<OPTION value="AF_GRANT_LEDGER_COMP_target.html">AF_GRANT_LEDGER
+<OPTION value="AF_GRANT_PERSONNEL_COMP_target.html">AF_GRANT_PERSONNEL
+<OPTION value="AF_INVOICE_COMP_target.html">AF_INVOICE
+<OPTION value="AF_INVOICE_ACCOUNTING_COMP_target.html">AF_INVOICE_ACCOUNTING
+<OPTION value="AF_INVOICE_CHECK_COMP_target.html">AF_INVOICE_CHECK
+<OPTION value="AF_INVOICE_ITEM_COMP_target.html">AF_INVOICE_ITEM
+<OPTION value="AF_INVOICE_TAX_RATE_COMP_target.html">AF_INVOICE_TAX_RATE
+<OPTION value="AF_LOCATION_ATTRIBUTES_ODS_COMP_target.html">AF_LOCATION_ATTRIBUTES_ODS
+<OPTION value="AF_LOCATION_HIERARCHY_COMP_target.html">AF_LOCATION_HIERARCHY
+<OPTION value="AF_LOCATION_HIERARCHY_FISCAL_COMP_target.html">AF_LOCATION_HIERARCHY_FISCAL
+<OPTION value="AF_OPERATING_LEDGER_COMP_target.html">AF_OPERATING_LEDGER
+<OPTION value="AF_ORGANIZATION_ATTRIBUTES_ODS_COMP_target.html">AF_ORGANIZATION_ATTRIBUTES_ODS
+<OPTION value="AF_ORGANIZATION_HIERARCHY_COMP_target.html">AF_ORGANIZATION_HIERARCHY
+<OPTION value="AF_ORGN_HIERARCHY_FISCAL_COMP_target.html">AF_ORGN_HIERARCHY_FISCAL
+<OPTION value="AF_PROGRAM_ATTRIBUTES_ODS_COMP_target.html">AF_PROGRAM_ATTRIBUTES_ODS
+<OPTION value="AF_PROGRAM_HIERARCHY_COMP_target.html">AF_PROGRAM_HIERARCHY
+<OPTION value="AF_PROGRAM_HIERARCHY_FISCAL_COMP_target.html">AF_PROGRAM_HIERARCHY_FISCAL
+<OPTION value="AF_PROPOSAL_COMP_target.html">AF_PROPOSAL
+<OPTION value="AF_PURCHASE_ORDER_COMP_target.html">AF_PURCHASE_ORDER
+<OPTION value="AF_PURCHASE_ORDER_ACCOUNTING_COMP_target.html">AF_PURCHASE_ORDER_ACCOUNTING
+<OPTION value="AF_PURCHASE_ORDER_ITEM_COMP_target.html">AF_PURCHASE_ORDER_ITEM
+<OPTION value="AF_PURCHASE_ORDER_TAX_RATE_COMP_target.html">AF_PURCHASE_ORDER_TAX_RATE
+<OPTION value="AF_RECEIVED_ITEM_COMP_target.html">AF_RECEIVED_ITEM
+<OPTION value="AF_RETURNED_ITEM_COMP_target.html">AF_RETURNED_ITEM
+<OPTION value="AF_TEXT_COMP_target.html">AF_TEXT
+<OPTION value="AF_TRANSACTION_HISTORY_COMP_target.html">AF_TRANSACTION_HISTORY
+<OPTION value="AF_VALIDATION_COMP_target.html">AF_VALIDATION
+<OPTION value="AF_VENDOR_COMP_target.html">AF_VENDOR
+<OPTION value="AF_VENDOR_TAXABLE_REPORTING_COMP_target.html">AF_VENDOR_TAXABLE_REPORTING
+<OPTION value="AG_ALTERNATIVE_ID_COMP_target.html">AG_ALTERNATIVE_ID
+<OPTION value="AG_COMMUNICATION_COMP_target.html">AG_COMMUNICATION
+<OPTION value="AG_EVENT_COMP_target.html">AG_EVENT
+<OPTION value="AG_EVENT_INVITEE_COMP_target.html">AG_EVENT_INVITEE
+<OPTION value="AG_GEOGRAPHIC_REGION_COMP_target.html">AG_GEOGRAPHIC_REGION
+<OPTION value="AG_GEOGRAPHIC_REGION_INST_COMP_target.html">AG_GEOGRAPHIC_REGION_INST
+<OPTION value="AG_INTERNET_ADDRESS_COMP_target.html">AG_INTERNET_ADDRESS
+<OPTION value="AG_SDE_DATA_COMP_target.html">AG_SDE_DATA
+<OPTION value="AG_VALIDATION_COMP_target.html">AG_VALIDATION
+<OPTION value="AN_EMPLOYEE_POSITION_COMP_target.html">AN_EMPLOYEE_POSITION
+<OPTION value="AN_FISCAL_YEAR_COMP_target.html">AN_FISCAL_YEAR
+<OPTION value="AN_FMLA_LEAVE_COMMENT_COMP_target.html">AN_FMLA_LEAVE_COMMENT
+<OPTION value="AN_JOB_FTE_TRACKING_COMP_target.html">AN_JOB_FTE_TRACKING
+<OPTION value="AN_LABOR_COST_DISTRIBUTION_COMP_target.html">AN_LABOR_COST_DISTRIBUTION
+<OPTION value="AN_PAYROLL_DISTRIBUTION_COMP_target.html">AN_PAYROLL_DISTRIBUTION
+<OPTION value="AN_PERSONNEL_ACTION_COMP_target.html">AN_PERSONNEL_ACTION
+<OPTION value="AN_PERSONNEL_ACTION_COMMENT_COMP_target.html">AN_PERSONNEL_ACTION_COMMENT
+<OPTION value="AN_PERSONNEL_ACTION_EARNING_COMP_target.html">AN_PERSONNEL_ACTION_EARNING
+<OPTION value="AN_PERSONNEL_ACTION_GENERAL_COMP_target.html">AN_PERSONNEL_ACTION_GENERAL
+<OPTION value="AN_PERSONNEL_ACTION_LABOR_DIST_COMP_target.html">AN_PERSONNEL_ACTION_LABOR_DIST
+<OPTION value="AN_POSITION_BUDGET_COMP_target.html">AN_POSITION_BUDGET
+<OPTION value="AN_POSITION_DEFINITION_COMP_target.html">AN_POSITION_DEFINITION
+<OPTION value="AN_POSITION_LABOR_DISTRIBUTION_COMP_target.html">AN_POSITION_LABOR_DISTRIBUTION
+<OPTION value="AN_SALARY_RATE_COMP_target.html">AN_SALARY_RATE
+<OPTION value="AN_SUPERVISOR_COMP_target.html">AN_SUPERVISOR
+<OPTION value="AN_VALIDATION_COMP_target.html">AN_VALIDATION
+<OPTION value="AP_BARGAINING_UNIT_COMP_target.html">AP_BARGAINING_UNIT
+<OPTION value="AP_BENEFICIARY_DEPENDENT_COMP_target.html">AP_BENEFICIARY_DEPENDENT
+<OPTION value="AP_BENEFIT_DEDUCTION_COMP_target.html">AP_BENEFIT_DEDUCTION
+<OPTION value="AP_CERTIFICATION_COMP_target.html">AP_CERTIFICATION
+<OPTION value="AP_EARNING_TOTALS_CY_COMP_target.html">AP_EARNING_TOTALS_CY
+<OPTION value="AP_EARNING_TOTALS_FY_COMP_target.html">AP_EARNING_TOTALS_FY
+<OPTION value="AP_EMPLOYEE_COMP_target.html">AP_EMPLOYEE
+<OPTION value="AP_EMPLOYEE_EARNING_CY_COMP_target.html">AP_EMPLOYEE_EARNING_CY
+<OPTION value="AP_EMPLOYEE_EARNING_FY_COMP_target.html">AP_EMPLOYEE_EARNING_FY
+<OPTION value="AP_FACULTY_APPOINTMENT_HISTORY_COMP_target.html">AP_FACULTY_APPOINTMENT_HISTORY
+<OPTION value="AP_FACULTY_RANK_HISTORY_COMP_target.html">AP_FACULTY_RANK_HISTORY
+<OPTION value="AP_FACULTY_SABBATICAL_HISTORY_COMP_target.html">AP_FACULTY_SABBATICAL_HISTORY
+<OPTION value="AP_FAMILY_MEDICAL_LEAVE_HIST_COMP_target.html">AP_FAMILY_MEDICAL_LEAVE_HIST
+<OPTION value="AP_HR_APPLICATION_COMP_target.html">AP_HR_APPLICATION
+<OPTION value="AP_HR_APPLICATION_STATUS_COMP_target.html">AP_HR_APPLICATION_STATUS
+<OPTION value="AP_HR_REQUISITION_COMP_target.html">AP_HR_REQUISITION
+<OPTION value="AP_INTERVIEW_COMP_target.html">AP_INTERVIEW
+<OPTION value="AP_LEAVE_ACCRUAL_COMP_target.html">AP_LEAVE_ACCRUAL
+<OPTION value="AP_LEAVE_BALANCE_COMP_target.html">AP_LEAVE_BALANCE
+<OPTION value="AP_MONTHLY_DEDUCTION_COMP_target.html">AP_MONTHLY_DEDUCTION
+<OPTION value="AP_PAST_EMPLOYMENT_COMP_target.html">AP_PAST_EMPLOYMENT
+<OPTION value="AP_PAYROLL_ATTENDANCE_COMP_target.html">AP_PAYROLL_ATTENDANCE
+<OPTION value="AP_PAYROLL_DEDUCTION_COMP_target.html">AP_PAYROLL_DEDUCTION
+<OPTION value="AP_PAYROLL_DOCUMENT_COMP_target.html">AP_PAYROLL_DOCUMENT
+<OPTION value="AP_PAYROLL_EARNING_COMP_target.html">AP_PAYROLL_EARNING
+<OPTION value="AP_PAYROLL_EMPLOYEE_POSITION_COMP_target.html">AP_PAYROLL_EMPLOYEE_POSITION
+<OPTION value="AP_PAYROLL_LABOR_DIST_OVERRIDE_COMP_target.html">AP_PAYROLL_LABOR_DIST_OVERRIDE
+<OPTION value="AP_PAYROLL_TIMESHEET_COMP_target.html">AP_PAYROLL_TIMESHEET
+<OPTION value="AP_REFERENCE_COMP_target.html">AP_REFERENCE
+<OPTION value="AP_REVIEW_COMP_target.html">AP_REVIEW
+<OPTION value="AP_SKILL_COMP_target.html">AP_SKILL
+<OPTION value="AP_TAX_COMP_target.html">AP_TAX
+<OPTION value="AP_VALIDATION_COMP_target.html">AP_VALIDATION
+<OPTION value="AP_YEARLY_DEDUCTION_COMP_target.html">AP_YEARLY_DEDUCTION
+<OPTION value="AR_APPLICANT_NEED_COMP_target.html">AR_APPLICANT_NEED
+<OPTION value="AR_APPLICANT_RESOURCE_COMP_target.html">AR_APPLICANT_RESOURCE
+<OPTION value="AR_AWARD_BY_AID_YEAR_COMP_target.html">AR_AWARD_BY_AID_YEAR
+<OPTION value="AR_AWARD_BY_FUND_COMP_target.html">AR_AWARD_BY_FUND
+<OPTION value="AR_AWARD_BY_PERSON_COMP_target.html">AR_AWARD_BY_PERSON
+<OPTION value="AR_AWARD_DISBURSEMENT_COMP_target.html">AR_AWARD_DISBURSEMENT
+<OPTION value="AR_FINAID_APPLICANT_STATUS_COMP_target.html">AR_FINAID_APPLICANT_STATUS
+<OPTION value="AR_FINAID_APPLICATION1_COMP_target.html">AR_FINAID_APPLICATION1
+<OPTION value="AR_FINAID_APPLICATION2_COMP_target.html">AR_FINAID_APPLICATION2
+<OPTION value="AR_FINAID_APPLICATION3_COMP_target.html">AR_FINAID_APPLICATION3
+<OPTION value="AR_FINAID_APPLICATION4_COMP_target.html">AR_FINAID_APPLICATION4
+<OPTION value="AR_FINAID_BUDGET_COMPONENT_COMP_target.html">AR_FINAID_BUDGET_COMPONENT
+<OPTION value="AR_FINAID_COMMENTS_COMP_target.html">AR_FINAID_COMMENTS
+<OPTION value="AR_FINAID_ENROLLMENT_COMP_target.html">AR_FINAID_ENROLLMENT
+<OPTION value="AR_FINAID_FUND_COMP_target.html">AR_FINAID_FUND
+<OPTION value="AR_FINAID_HOLD_COMP_target.html">AR_FINAID_HOLD
+<OPTION value="AR_FINAID_MESSAGE_COMP_target.html">AR_FINAID_MESSAGE
+<OPTION value="AR_FINAID_TRACKING_REQUIREMENT_COMP_target.html">AR_FINAID_TRACKING_REQUIREMENT
+<OPTION value="AR_FUND_MESSAGE_RULE_COMP_target.html">AR_FUND_MESSAGE_RULE
+<OPTION value="AR_LOAN_AGGREGATES_COMP_target.html">AR_LOAN_AGGREGATES
+<OPTION value="AR_LOAN_APPLICATION_COMP_target.html">AR_LOAN_APPLICATION
+<OPTION value="AR_LOAN_DISBURSEMENT_COMP_target.html">AR_LOAN_DISBURSEMENT
+<OPTION value="AR_NEED_ANALYSIS_ISIR_SPEC_COMP_target.html">AR_NEED_ANALYSIS_ISIR_SPEC
+<OPTION value="AR_NEED_ANALYSIS_OVERRIDE_COMP_target.html">AR_NEED_ANALYSIS_OVERRIDE
+<OPTION value="AR_NEED_ANALYSIS_PROFILE_SPEC_COMP_target.html">AR_NEED_ANALYSIS_PROFILE_SPEC
+<OPTION value="AR_SATISFACTORY_ACAD_PROGRESS_COMP_target.html">AR_SATISFACTORY_ACAD_PROGRESS
+<OPTION value="AR_STUDENT_PERIOD_DEFINITION_COMP_target.html">AR_STUDENT_PERIOD_DEFINITION
+<OPTION value="AR_USER_DEFINED_FIELDS_COMP_target.html">AR_USER_DEFINED_FIELDS
+<OPTION value="AR_VALIDATION_COMP_target.html">AR_VALIDATION
+<OPTION value="AR_YEAR_TYPE_DEFINITION_COMP_target.html">AR_YEAR_TYPE_DEFINITION
+<OPTION value="AS_ACADEMIC_HISTORY_EVENT_COMP_target.html">AS_ACADEMIC_HISTORY_EVENT
+<OPTION value="AS_ACADEMIC_OUTCOME_COMP_target.html">AS_ACADEMIC_OUTCOME
+<OPTION value="AS_ACADEMIC_STANDING_COMP_target.html">AS_ACADEMIC_STANDING
+<OPTION value="AS_ACTIVE_TERMS_COMP_target.html">AS_ACTIVE_TERMS
+<OPTION value="AS_ADDRESS_COMP_target.html">AS_ADDRESS
+<OPTION value="AS_ADMINISTRATOR_COMP_target.html">AS_ADMINISTRATOR
+<OPTION value="AS_ADMISSIONS_APPLICATION_COMP_target.html">AS_ADMISSIONS_APPLICATION
+<OPTION value="AS_ADMISSIONS_ATTRIBUTE_COMP_target.html">AS_ADMISSIONS_ATTRIBUTE
+<OPTION value="AS_ADMISSIONS_COHORT_COMP_target.html">AS_ADMISSIONS_COHORT
+<OPTION value="AS_ADMISSIONS_DECISION_COMP_target.html">AS_ADMISSIONS_DECISION
+<OPTION value="AS_ADMISSIONS_RATING_COMP_target.html">AS_ADMISSIONS_RATING
+<OPTION value="AS_ADMISSIONS_REQUIREMENT_COMP_target.html">AS_ADMISSIONS_REQUIREMENT
+<OPTION value="AS_ADMISSIONS_SOURCE_COMP_target.html">AS_ADMISSIONS_SOURCE
+<OPTION value="AS_ADVISOR_COMP_target.html">AS_ADVISOR
+<OPTION value="AS_CONTACT_COMP_target.html">AS_CONTACT
+<OPTION value="AS_COURSE_ATTRIBUTE_COMP_target.html">AS_COURSE_ATTRIBUTE
+<OPTION value="AS_COURSE_CATALOG_COMP_target.html">AS_COURSE_CATALOG
+<OPTION value="AS_COURSE_COREQ_COMP_target.html">AS_COURSE_COREQ
+<OPTION value="AS_COURSE_LEVEL_COMP_target.html">AS_COURSE_LEVEL
+<OPTION value="AS_COURSE_OFFERING_COMP_target.html">AS_COURSE_OFFERING
+<OPTION value="AS_COURSE_OFFERING_FEES_COMP_target.html">AS_COURSE_OFFERING_FEES
+<OPTION value="AS_COURSE_PREREQ_COMP_target.html">AS_COURSE_PREREQ
+<OPTION value="AS_COURSE_SCHEDULE_COMP_target.html">AS_COURSE_SCHEDULE
+<OPTION value="AS_COURSE_SUPPLEMENTAL_COMP_target.html">AS_COURSE_SUPPLEMENTAL
+<OPTION value="AS_CURRICULUM_COMP_target.html">AS_CURRICULUM
+<OPTION value="AS_CURRICULUM_FOS_COMP_target.html">AS_CURRICULUM_FOS
+<OPTION value="AS_DISABILITY_INFORMATION_COMP_target.html">AS_DISABILITY_INFORMATION
+<OPTION value="AS_ENROLLMENT_COMP_target.html">AS_ENROLLMENT
+<OPTION value="AS_ENROLLMENT_HISTORY_COMP_target.html">AS_ENROLLMENT_HISTORY
+<OPTION value="AS_ENROLLMENT_WITHDRAWAL_COMP_target.html">AS_ENROLLMENT_WITHDRAWAL
+<OPTION value="AS_FACULTY_COMP_target.html">AS_FACULTY
+<OPTION value="AS_FACULTY_ATTRIBUTE_COMP_target.html">AS_FACULTY_ATTRIBUTE
+<OPTION value="AS_FACULTY_CONTRACT_COMP_target.html">AS_FACULTY_CONTRACT
+<OPTION value="AS_FACULTY_DEPARTMENT_COLLEGE_COMP_target.html">AS_FACULTY_DEPARTMENT_COLLEGE
+<OPTION value="AS_FACULTY_FEEDBACK_COMP_target.html">AS_FACULTY_FEEDBACK
+<OPTION value="AS_FACULTY_FEEDBACK_DETAIL_COMP_target.html">AS_FACULTY_FEEDBACK_DETAIL
+<OPTION value="AS_FIELD_OF_STUDY_COMP_target.html">AS_FIELD_OF_STUDY
+<OPTION value="AS_GENERAL_STUDENT_COMP_target.html">AS_GENERAL_STUDENT
+<OPTION value="AS_GENSTU_END_TERM_COMP_target.html">AS_GENSTU_END_TERM
+<OPTION value="AS_GPA_LEVEL_COMP_target.html">AS_GPA_LEVEL
+<OPTION value="AS_GPA_TERM_COMP_target.html">AS_GPA_TERM
+<OPTION value="AS_HOLD_COMP_target.html">AS_HOLD
+<OPTION value="AS_INSTITUTION_COMP_target.html">AS_INSTITUTION
+<OPTION value="AS_INSTITUTION_CHARACTERISTIC_COMP_target.html">AS_INSTITUTION_CHARACTERISTIC
+<OPTION value="AS_INSTITUTION_DEMOGRAPHIC_COMP_target.html">AS_INSTITUTION_DEMOGRAPHIC
+<OPTION value="AS_INSTRUCTIONAL_ASSIGNMENT_COMP_target.html">AS_INSTRUCTIONAL_ASSIGNMENT
+<OPTION value="AS_INTEREST_COMP_target.html">AS_INTEREST
+<OPTION value="AS_LEARNER_CURRICULUM_FOS_COMP_target.html">AS_LEARNER_CURRICULUM_FOS
+<OPTION value="AS_MEAL_ASSIGNMENT_COMP_target.html">AS_MEAL_ASSIGNMENT
+<OPTION value="AS_MEDICAL_INFORMATION_COMP_target.html">AS_MEDICAL_INFORMATION
+<OPTION value="AS_MEETING_TIME_COMP_target.html">AS_MEETING_TIME
+<OPTION value="AS_NONINSTRUCTIONAL_ASSIGNMENT_COMP_target.html">AS_NONINSTRUCTIONAL_ASSIGNMENT
+<OPTION value="AS_OFFERING_COREQ_COMP_target.html">AS_OFFERING_COREQ
+<OPTION value="AS_OFFERING_GRADE_MODE_COMP_target.html">AS_OFFERING_GRADE_MODE
+<OPTION value="AS_OFFERING_GRADE_TYPE_COMP_target.html">AS_OFFERING_GRADE_TYPE
+<OPTION value="AS_OFFERING_PREREQ_COMP_target.html">AS_OFFERING_PREREQ
+<OPTION value="AS_ORGANIZATION_ENTITY_COMP_target.html">AS_ORGANIZATION_ENTITY
+<OPTION value="AS_OUTCOME_HONOR_DEPT_COMP_target.html">AS_OUTCOME_HONOR_DEPT
+<OPTION value="AS_OUTCOME_HONOR_INST_COMP_target.html">AS_OUTCOME_HONOR_INST
+<OPTION value="AS_PERSON_COMP_target.html">AS_PERSON
+<OPTION value="AS_PHONE_ASSIGNMENT_COMP_target.html">AS_PHONE_ASSIGNMENT
+<OPTION value="AS_PREVIOUS_DEGREE_COMP_target.html">AS_PREVIOUS_DEGREE
+<OPTION value="AS_PREVIOUS_EDUCATION_HSCH_COMP_target.html">AS_PREVIOUS_EDUCATION_HSCH
+<OPTION value="AS_PREVIOUS_EDUCATION_PCOL_COMP_target.html">AS_PREVIOUS_EDUCATION_PCOL
+<OPTION value="AS_PRE_STUDENT_COMP_target.html">AS_PRE_STUDENT
+<OPTION value="AS_RACE_COMP_target.html">AS_RACE
+<OPTION value="AS_RECRUITMENT_ATTRIBUTE_COMP_target.html">AS_RECRUITMENT_ATTRIBUTE
+<OPTION value="AS_RECRUITMENT_COHORT_COMP_target.html">AS_RECRUITMENT_COHORT
+<OPTION value="AS_RECRUITMENT_INFORMATION_COMP_target.html">AS_RECRUITMENT_INFORMATION
+<OPTION value="AS_RECRUITMENT_LEARNED_COMP_target.html">AS_RECRUITMENT_LEARNED
+<OPTION value="AS_RECRUITMENT_SOURCE_COMP_target.html">AS_RECRUITMENT_SOURCE
+<OPTION value="AS_ROOM_ASSIGNMENT_COMP_target.html">AS_ROOM_ASSIGNMENT
+<OPTION value="AS_SCHEDULE_ATTRIBUTE_COMP_target.html">AS_SCHEDULE_ATTRIBUTE
+<OPTION value="AS_SECONDARY_SCHOOL_SUBJECT_COMP_target.html">AS_SECONDARY_SCHOOL_SUBJECT
+<OPTION value="AS_SPORT_COMP_target.html">AS_SPORT
+<OPTION value="AS_STUDENT_ACTIVITY_COMP_target.html">AS_STUDENT_ACTIVITY
+<OPTION value="AS_STUDENT_ATTRIBUTE_COMP_target.html">AS_STUDENT_ATTRIBUTE
+<OPTION value="AS_STUDENT_CLASSIFICATION_COMP_target.html">AS_STUDENT_CLASSIFICATION
+<OPTION value="AS_STUDENT_COHORT_COMP_target.html">AS_STUDENT_COHORT
+<OPTION value="AS_STUDENT_COURSE_ATTRIBUTE_COMP_target.html">AS_STUDENT_COURSE_ATTRIBUTE
+<OPTION value="AS_STUDENT_COURSE_ATTR_TRANS_COMP_target.html">AS_STUDENT_COURSE_ATTR_TRANS
+<OPTION value="AS_STUDENT_COURSE_GRADE_CHG_COMP_target.html">AS_STUDENT_COURSE_GRADE_CHG
+<OPTION value="AS_STUDENT_COURSE_HISTORY_COMP_target.html">AS_STUDENT_COURSE_HISTORY
+<OPTION value="AS_STUDENT_COURSE_IN_PROGRESS_COMP_target.html">AS_STUDENT_COURSE_IN_PROGRESS
+<OPTION value="AS_STUDENT_COURSE_REG_AUDIT_COMP_target.html">AS_STUDENT_COURSE_REG_AUDIT
+<OPTION value="AS_STUDENT_COURSE_TRANSFER_COMP_target.html">AS_STUDENT_COURSE_TRANSFER
+<OPTION value="AS_STUDENT_TRANSFERRED_COURSE_COMP_target.html">AS_STUDENT_TRANSFERRED_COURSE
+<OPTION value="AS_STUDENT_WORK_EXPERIENCE_COMP_target.html">AS_STUDENT_WORK_EXPERIENCE
+<OPTION value="AS_TELEPHONE_COMP_target.html">AS_TELEPHONE
+<OPTION value="AS_TEST_COMP_target.html">AS_TEST
+<OPTION value="AS_TRANSCRIPT_LEVEL_COMMENT_COMP_target.html">AS_TRANSCRIPT_LEVEL_COMMENT
+<OPTION value="AS_TRANSCRIPT_TERM_COMMENT_COMP_target.html">AS_TRANSCRIPT_TERM_COMMENT
+<OPTION value="AS_VALIDATION_COMP_target.html">AS_VALIDATION
+<OPTION value="AS_VETERAN_CERTIFICATION_COMP_target.html">AS_VETERAN_CERTIFICATION
+<OPTION value="AS_VISA_COMP_target.html">AS_VISA
+<OPTION value="AS_YEAR_TYPE_DEFINITION_COMP_target.html">AS_YEAR_TYPE_DEFINITION
+<OPTION value="AT_ACCOUNT_COMP_target.html">AT_ACCOUNT
+<OPTION value="AT_ACCOUNT_DETAIL_COMP_target.html">AT_ACCOUNT_DETAIL
+<OPTION value="AT_APPLICATION_OF_PAYMENT_COMP_target.html">AT_APPLICATION_OF_PAYMENT
+<OPTION value="AT_AR_DEPOSIT_COMP_target.html">AT_AR_DEPOSIT
+<OPTION value="AT_CONTRACT_COMP_target.html">AT_CONTRACT
+<OPTION value="AT_CONTRACT_PAYMENT_DETAIL_COMP_target.html">AT_CONTRACT_PAYMENT_DETAIL
+<OPTION value="AT_EXEMPTION_COMP_target.html">AT_EXEMPTION
+<OPTION value="AT_GRANT_ACCOUNT_DETAIL_COMP_target.html">AT_GRANT_ACCOUNT_DETAIL
+<OPTION value="AT_GRANT_APPLICATION_PAYMENT_COMP_target.html">AT_GRANT_APPLICATION_PAYMENT
+<OPTION value="AT_INSTALLMENT_PLAN_COMP_target.html">AT_INSTALLMENT_PLAN
+<OPTION value="AT_LEDGER_ACCOUNTING_COMP_target.html">AT_LEDGER_ACCOUNTING
+<OPTION value="AT_MEMO_COMP_target.html">AT_MEMO
+<OPTION value="AT_MISCELLANEOUS_TRANSACTION_COMP_target.html">AT_MISCELLANEOUS_TRANSACTION
+<OPTION value="AT_STUDENT_TAX_NOTIFICATION_COMP_target.html">AT_STUDENT_TAX_NOTIFICATION
+<OPTION value="AT_VALIDATION_COMP_target.html">AT_VALIDATION
+</SELECT>
+<TD ALIGN="RIGHT"><SMALL><B><A HREF="COMP_index.html">RETURN TO BANNER COMP META DATA REPORTS LIST</A></B></SMALL></TD></TR>
+<TR ALIGN="RIGHT"><TD><TD><SMALL><B><A HREF="Financial_Aid_COMP_index.html">Financial Aid Composite View Reports</A></B></SMALL></TD></TR>
+</TABLE><BR>
+<CENTER><B>
+Banner Operational Data Store<BR>
+<A NAME="TITLE"></A>
+Composite View Target: AR_FINAID_APPLICATION2</B><P>
+<TABLE border=1 cellspacing=0 width="75%"><TR>
+<TD bgcolor=#c0c0c0 bordercolor=#000000 width="25%"><SMALL><B>Description
+<TD><SMALL>Contains demographic information about the student and parents from the financial aid application. Also contains information specific to the financial aid application itself.</TR><TR>
+</TABLE></CENTER><P>
+<table  border=1 bgcolor=#FFFFFF cellspacing=0>
+<th bgcolor=#c0c0c0 bordercolor=#000000><font color="#000000" face="Arial" size="2">Target Column</font></th>
+<th bgcolor=#c0c0c0 bordercolor=#000000><font color="#000000" face="Arial" size="2">Business Definition</font></th>
+<th bgcolor=#c0c0c0 bordercolor=#000000><font color="#000000" face="Arial" size="2">Database Data Type</font></th>
+<th bgcolor=#c0c0c0 bordercolor=#000000><font color="#000000" face="Arial" size="2">Source Name</font></th>
+<th bgcolor=#c0c0c0 bordercolor=#000000><font color="#000000" face="Arial" size="2">Source Column</font></th>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="ACTIVITY_DATE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+ACTIVITY_DATE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Date record was inserted or updated.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+DATE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_ACTIVITY_DATE"><font color="#000000" face="Arial" size="2">RCRAPP2_ACTIVITY_DATE</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="AGE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+AGE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The student's age used in all calculations.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_AGE"><font color="#000000" face="Arial" size="2">RCRAPP2_C_AGE</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="AID_YEAR"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+AID_YEAR
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Represents a financial aid year. Aid years may follow the academic year or the fiscal year or another variation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(4)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_AIDY_CODE"><font color="#000000" face="Arial" size="2">RCRAPP2_AIDY_CODE</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="APPLICATION_NUMBER"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+APPLICATION_NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Financial aid application unique sequence number.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_SEQ_NO"><font color="#000000" face="Arial" size="2">RCRAPP2_SEQ_NO</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="CURRENT_DATE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+CURRENT_DATE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+System current date (sysdate) or date the data was extracted.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+DATE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="NA_COMP_source.html"><font color="#000000" face="Arial" size="2">NA</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="NA_COMP_source.html#SYSDATE"><font color="#000000" face="Arial" size="2">SYSDATE</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="DEPENDENCY_INDEPEND"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+DEPENDENCY_INDEPEND
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Code that indicates if the student is independent or dependent.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_MODEL_CDE"><font color="#000000" face="Arial" size="2">RCRAPP2_MODEL_CDE</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="DEPENDENCY_INDEPEND_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+DEPENDENCY_INDEPEND_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Depend independ code description.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(4000)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_MODEL_CDE)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_MODEL_CDE)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="DEPENDENCY_STATUS"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+DEPENDENCY_STATUS
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Indicates the students dependency status as computed by INAS or loaded from the tape record.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_DEPEND_STATUS"><font color="#000000" face="Arial" size="2">RCRAPP2_C_DEPEND_STATUS</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="DEPENDENCY_STATUS_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+DEPENDENCY_STATUS_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Students dependency status description.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(15)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_C_DEPEND_STATUS)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_C_DEPEND_STATUS)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="DOMAIN_VALUE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+DOMAIN_VALUE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Domain column for future use, not currently populated.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(6)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="NA_COMP_source.html"><font color="#000000" face="Arial" size="2">NA</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="NA_COMP_source.html#NA"><font color="#000000" face="Arial" size="2">NA</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="ENROLLMENT_PLANNING_SERVICE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+ENROLLMENT_PLANNING_SERVICE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+EPS Marketing code based on the student's zip code. Used to provide a standard geographic region code for use in planning and research. (CSS formats only).
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(4)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_EPS_CDE"><font color="#000000" face="Arial" size="2">RCRAPP2_EPS_CDE</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="ENROLLMENT_PLANNING_SERV_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+ENROLLMENT_PLANNING_SERV_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Description of the EPS Marketing code based on the student's zip code. Used to provide a standard geographic region code for use in planning and research. (CSS formats only).
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(30)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="STVEPSC_COMP_source.html"><font color="#000000" face="Arial" size="2">STVEPSC</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="STVEPSC_COMP_source.html#STVEPSC_DESC"><font color="#000000" face="Arial" size="2">STVEPSC_DESC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FAMILY_IN_COLLEGE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FAMILY_IN_COLLEGE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The number of people in the student's family that will be in college at least half-time as computed by the need analysis processor.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_NO_IN_COLL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_NO_IN_COLL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FAMILY_SIZE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FAMILY_SIZE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The number of people in the independent student's household as computed by the need analysis processor.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_FAM_MEMB"><font color="#000000" face="Arial" size="2">RCRAPP2_C_FAM_MEMB</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_ADJUSTED_AVAIL_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_ADJUSTED_AVAIL_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's calculated adjusted available income for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_ADJ_AVAIL_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_ADJ_AVAIL_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_ADJUSTED_BUS_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_ADJUSTED_BUS_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of business and farm net worth used in the calculation of the primary student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_ADJ_BF_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_ADJ_BF_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_ADJUSTED_GROSS_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_ADJUSTED_GROSS_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's adjusted gross taxable income for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_AGI_TAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_AGI_TAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_ANALYSIS_TYPE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_ANALYSIS_TYPE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Analysis type used to determine the primary Student Calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_ANLY_TYPE"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_ANLY_TYPE</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_ANALYSIS_TYPE_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_ANALYSIS_TYPE_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Analysis type description.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(4000)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_C_1_ANLY_TYPE)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_C_1_ANLY_TYPE)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_ASSET_PROTECT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_ASSET_PROTECT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of the student's asset protection allowance in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_PROT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_PROT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_AVAILABLE_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_AVAILABLE_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's available discretionary income for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_AVAIL_DISC_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_AVAIL_DISC_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_AVAILABLE_TAX_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_AVAILABLE_TAX_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's available taxable income for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_AVAIL_TAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_AVAIL_TAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_CALC_AVAILABLE_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_CALC_AVAILABLE_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's calculated available income for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_CALC_AVAIL_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_CALC_AVAIL_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_CASH_AMOUNT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_CASH_AMOUNT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's amounts in cash, savings and checking accounts used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_CASH_AMT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_CASH_AMT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_CONTRIBUTION_ASSET"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_CONTRIBUTION_ASSET
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's contribution from assets for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_CTRB_FR_ASSET"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_CTRB_FR_ASSET</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_CONTRIBUTION_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_CONTRIBUTION_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's contribution from income for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_CTRB_FR_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_CTRB_FR_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_CONTRIBUTION_OFFICIAL"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_CONTRIBUTION_OFFICIAL
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Indicates if the student contribution for the primary calculation is official or estimated.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_CTRB_OFFL_EST"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_CTRB_OFFL_EST</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_CONTRIBUTION_OFFICIAL_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_CONTRIBUTION_OFFICIAL_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Contribution official description.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(4000)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_C_1_CTRB_OFFL_EST)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_C_1_CTRB_OFFL_EST)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_CONVERSION_PERCENT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_CONVERSION_PERCENT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Conversion percent used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_CONV_PCT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_CONV_PCT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_DISCRET_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_DISCRET_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's discretionary net worth used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_DISC_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_DISC_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_EMPLOYMENT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EMPLOYMENT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's employment allowance used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_EMP_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_EMP_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_EST_ADJUSTED_BUS_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_ADJUSTED_BUS_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's adjusted business or farm net worth used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_ADJ_BF_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_ADJ_BF_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_EST_AGI"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_AGI
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total estimated adjusted gross income used in the calculation of the primary student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_AGI_TAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_AGI_TAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_EST_ASSET_PROT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_ASSET_PROT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's estimated asset protection allowance used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_PROT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_PROT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_EST_AVAILABLE_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_AVAILABLE_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's estimated available discretionary income used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_AVAIL_DISC_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_AVAIL_DISC_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_EST_CASH_AMOUNT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_CASH_AMOUNT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's estimated amounts in cash, savings and checking accounts used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_CASH_AMT"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_CASH_AMT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_EST_CONTRIBUTION_ASSET"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_CONTRIBUTION_ASSET
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Portion of the estimated primary parent contribution that came from assets.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_CTRB_FR_ASSET"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_CTRB_FR_ASSET</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_EST_CONTRIBUTION_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_CONTRIBUTION_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Portion of the estimated primary parent contribution that came from income.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_CTRB_FR_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_CTRB_FR_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_EST_CONTRIBUTION_OFFICIAL"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_CONTRIBUTION_OFFICIAL
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Indicates if the estimated primary parent contribution is official or estimated.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_CTRB_OFFL_EST"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_CTRB_OFFL_EST</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_EST_CONTRIB_OFFICIAL_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_CONTRIB_OFFICIAL_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Description of the estimated primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(10)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_PELL_CTRB_OFFL_EST)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_PELL_CTRB_OFFL_EST)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_EST_CONVERSION_PERCENT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_CONVERSION_PERCENT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's estimated conversion percentage used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_CONV_PCT"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_CONV_PCT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_EST_DISCRET_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_DISCRET_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's estimated discretionary net worth used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_DISC_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_DISC_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_EST_EMPLOYMENT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_EMPLOYMENT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total estimated employment allowance used in the calculation of the primary student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_EMP_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_EMP_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_EST_FAMILY_IN_COLLEGE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_FAMILY_IN_COLLEGE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's estimated family members in college.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_NO_IN_COLL"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_NO_IN_COLL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_EST_FEDERAL_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_FEDERAL_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total estimated federal taxes used in the calculation of the primary student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_US_INC_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_US_INC_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_EST_INAS"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_INAS
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The  student estimated contribution for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_CTRB_FOR_STDT"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_CTRB_FOR_STDT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_EST_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's estimated net worth used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_EST_REAL_ESTATE_EQ"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_REAL_ESTATE_EQ
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's estimated real estate equity used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_RE_INV_VAL"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_RE_INV_VAL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_EST_STAND_MAINT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_STAND_MAINT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total estimated standard maintenance allowance used in the calculation of the primary student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_MNT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_MNT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_EST_STATE_PROV_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_STATE_PROV_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total estimated state or province taxes used in the calculation of the primary student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_ST_OTH_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_ST_OTH_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_EST_TOTAL_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_TOTAL_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Estimated amount of total allowances used in the student's Federal Method calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_TOT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_TOT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_EST_TOTAL_CONTRIBUTION"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_TOTAL_CONTRIBUTION
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's estimated total contribution used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_TOT_CTRB"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_TOT_CTRB</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_EST_TOTAL_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_TOTAL_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total estimated income used in the calculation of the primary student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_TOT_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_TOT_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_EST_TOTAL_UNTAX_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_EST_TOTAL_UNTAX_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total estimated untaxable income used in the calculation of the primary student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_TOT_UNTAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_TOT_UNTAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_FAMILY_IN_COLLEGE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_FAMILY_IN_COLLEGE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Number of people in the student's household that will be in college as used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_NO_IN_COLL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_NO_IN_COLL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_FEDERAL_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_FEDERAL_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of federal income taxes paid used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_US_INC_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_US_INC_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_HOME_EQUITY"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_HOME_EQUITY
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Home equity used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_HME_VAL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_HME_VAL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_INAS"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_INAS
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The  student contribution for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_CTRB_FOR_STDT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_CTRB_FOR_STDT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_INCOME_SUPPLEMENT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_INCOME_SUPPLEMENT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of the income supplement used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_INC_SUPPLEMENT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_INC_SUPPLEMENT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_MEDICAL_DENTAL_EXPENSE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_MEDICAL_DENTAL_EXPENSE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of medical and dental expenses used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_MED_DEN_EXP"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_MED_DEN_EXP</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of the student's net worth used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_ADJUST_GROSS_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_ADJUST_GROSS_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The adjusted gross taxable income used in the calculation of the primary parents' contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_AGI_TAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_AGI_TAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_ADJ_AVAILABLE_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_ADJ_AVAILABLE_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of the adjusted available income that was used in the primary calculation of the parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_ADJ_AVAIL_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_ADJ_AVAIL_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_ADJ_BUS_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_ADJ_BUS_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Adjusted business/farm net worth used in the primary calculation of the parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_ADJ_BF_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_ADJ_BF_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_ANALYSIS_TYPE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_ANALYSIS_TYPE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Analysis type used to determine the primary Parent Calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_ANLY_TYPE"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_ANLY_TYPE</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_ANALYSIS_TYPE_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_ANALYSIS_TYPE_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Analysis type description.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(4000)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_C_PAR_1_ANLY_TYPE)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_C_PAR_1_ANLY_TYPE)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_ASSET_PROT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_ASSET_PROT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Asset protection allowance used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_PROT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_PROT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_AVAILABLE_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_AVAILABLE_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Available discretionary income used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_AVAIL_DISC_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_AVAIL_DISC_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_CASH_AMOUNT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_CASH_AMOUNT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of parents' cash, savings and checking accounts used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_CASH_AMT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_CASH_AMT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_CONTRIBUTION_ASSET"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_CONTRIBUTION_ASSET
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Portion of the primary parent contribution that came from assets.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_CTRB_FR_ASSET"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_CTRB_FR_ASSET</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_CONTRIBUTION_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_CONTRIBUTION_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Portion of the primary parent contribution that came from income.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_CTRB_FR_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_CTRB_FR_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_CONTRIB_OFFICIAL"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_CONTRIB_OFFICIAL
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Indicates if the primary parent contribution is official or estimated.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_CTRB_OFFL_EST"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_CTRB_OFFL_EST</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_CONTRIB_OFF_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_CONTRIB_OFF_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Description of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(4000)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_C_PAR_1_CTRB_OFFL_EST)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_C_PAR_1_CTRB_OFFL_EST)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_CONVERSION_PERCENT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_CONVERSION_PERCENT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Discretionary net worth conversion percent used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_CONV_PCT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_CONV_PCT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_DISCRET_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_DISCRET_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Discretionary net worth used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_DISC_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_DISC_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_EMPLOYMENT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_EMPLOYMENT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Employment allowance used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_EMP_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_EMP_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_EST_AGI"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_EST_AGI
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The estimated adjusted gross taxable income used in the calculation of the primary parents' contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_P_AGI_TAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_P_AGI_TAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_EST_ANALYSIS_TYPE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_EST_ANALYSIS_TYPE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Analysis type for the primary system PGI.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_P_ANLY_TYPE"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_P_ANLY_TYPE</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_EST_ANAL_TYPE_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_EST_ANAL_TYPE_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Analysis type description.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(10)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_PELL_P_ANLY_TYPE)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_PELL_P_ANLY_TYPE)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_EST_FEDERAL_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_EST_FEDERAL_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of estimated federal taxes used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_P_US_INC_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_P_US_INC_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_EST_STAT_PROV_TAX_PD"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_EST_STAT_PROV_TAX_PD
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of estimated state_province taxes used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_P_ST_OTH_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_P_ST_OTH_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_EST_TOTAL_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_EST_TOTAL_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total estimated income used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_P_TOT_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_P_TOT_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_EST_TOT_UNTAX_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_EST_TOT_UNTAX_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The estimated total untaxed income used in the calculation of the primary parent's contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_P_TOT_UNTAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_P_TOT_UNTAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_FEDERAL_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_FEDERAL_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of US income taxes paid used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_US_INC_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_US_INC_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_HOME_EQUITY"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_HOME_EQUITY
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Home equity used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_HME_VAL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_HME_VAL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_INAS"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_INAS
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_CTRB_FOR_STDT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_CTRB_FOR_STDT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_INCOME_SUPPLEMENT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_INCOME_SUPPLEMENT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Income supplement used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_INC_SUPPLEMENT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_INC_SUPPLEMENT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_MEDICAL_DENTAL_EXP"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_MEDICAL_DENTAL_EXP
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of medical and dental expenses used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_MED_DEN_EXP"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_MED_DEN_EXP</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Net worth used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_REAL_ESTATE_EQUITY"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_REAL_ESTATE_EQUITY
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Other real estate and investment equity used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_RE_INV_VAL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_RE_INV_VAL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_SECONDARY_TUITION_PD"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_SECONDARY_TUITION_PD
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of elementary and secondary school tuition paid used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_SCH_TUIT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_SCH_TUIT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_STAND_MAINT_ALLOW"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_STAND_MAINT_ALLOW
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Standard maintenance allownace used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_MNT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_MNT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_STATE_PROV_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_STATE_PROV_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of state and other taxes paid used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_ST_OTH_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_ST_OTH_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_TOTAL_ALLOWANCES"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_TOTAL_ALLOWANCES
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total allowances used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_TOT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_TOT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_TOTAL_CONTRIBUTION"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_TOTAL_CONTRIBUTION
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total primary parent contribution before adjustment for the number of family members in college.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_TOT_CTRB"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_TOT_CTRB</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_TOTAL_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_TOTAL_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total income used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_TOT_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_TOT_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_PARENT_TOTAL_UNTAX_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_TOTAL_UNTAX_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total untaxed income used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_TOT_UNTAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_TOT_UNTAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_PARENT_WAGE_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_PARENT_WAGE_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of wage taxes used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_1_FICA_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_1_FICA_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_REAL_ESTATE_EQUITY"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_REAL_ESTATE_EQUITY
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of other real estate/investment equity used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_RE_INV_VAL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_RE_INV_VAL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_SECOND_TUITION_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_SECOND_TUITION_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of elementary/secondary school tuition paid that was used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_SCH_TUIT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_SCH_TUIT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_STAND_MAINT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_STAND_MAINT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Standard maintenance allowance used in the calculation of the student's contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_MNT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_MNT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_STATE_PROVINCE_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_STATE_PROVINCE_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of state or province and other taxes used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_ST_OTH_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_ST_OTH_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_TAXABLE_INCOME_CONTRIBUTION"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_TAXABLE_INCOME_CONTRIBUTION
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Taxable income contribution for single independent students for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_TAX_INC_CTRB"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_TAX_INC_CTRB</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_TOTAL_ALLOWANCES"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_TOTAL_ALLOWANCES
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of total allowances used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_TOT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_TOT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_TOTAL_CONTRIBUTION"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_TOTAL_CONTRIBUTION
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total student contribution before the number in college adjustment for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_TOT_CTRB"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_TOT_CTRB</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_TOTAL_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_TOTAL_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The total income used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_TOT_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_TOT_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_TOTAL_UNTAX_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_TOTAL_UNTAX_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of total untaxed income used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_TOT_UNTAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_TOT_UNTAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="FM_VETERAN_BENEFITS_IND"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_VETERAN_BENEFITS_IND
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Indicates if VA benefits have been included in the calculation of the student's primary contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_C_1_VA_BEN_INCL)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_C_1_VA_BEN_INCL)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="FM_WAGE_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+FM_WAGE_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of wage taxes used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_1_FICA_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_C_1_FICA_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_ADJUSTED_AVAILABLE_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_ADJUSTED_AVAILABLE_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of the adjusted available income that was used in the IM calculation of the student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_ADJ_AVAIL_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_ADJ_AVAIL_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_ADJUSTED_BUS_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_ADJUSTED_BUS_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of business and farm net worth used in the calculation of the IM student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_ADJ_BF_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_ADJ_BF_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_ADJUSTED_GROSS_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_ADJUSTED_GROSS_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Adjusted gross taxable income used in the calculation of the IM student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_AGI_TAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_AGI_TAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_ANALYSIS_TYPE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_ANALYSIS_TYPE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Analysis type used for the IM student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_IM_1_ANLY_TYPE"><font color="#000000" face="Arial" size="2">RCRAPP2_IM_1_ANLY_TYPE</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_ANALYSIS_TYPE_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_ANALYSIS_TYPE_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Analysis type description.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(4000)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+&nbsp;
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+&nbsp;
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_ASSET_PROTECT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_ASSET_PROTECT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Asset protection allowance used in the calculation of the student IM contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_PROT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_PROT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_AVAILABLE_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_AVAILABLE_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's available discretionary income for the IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_AVAIL_DISC_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_AVAIL_DISC_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_AVAILABLE_TAX_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_AVAILABLE_TAX_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's available taxable income for the IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_AVAIL_TAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_AVAIL_TAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_CALC_AVAILABLE_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_CALC_AVAILABLE_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's calculated available income for the IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_CALC_AVAIL_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_CALC_AVAIL_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_CASH_AMOUNT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_CASH_AMOUNT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's amounts in cash, savings and checking accounts used in the IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_CASH_AMT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_CASH_AMT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_CONTRIBUTION"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_CONTRIBUTION
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Primary institutional methodology student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_IM_1_SC"><font color="#000000" face="Arial" size="2">RCRAPP2_IM_1_SC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_CONTRIBUTION_ASSET"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_CONTRIBUTION_ASSET
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's contribution from assets for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_CTRB_FR_ASSET"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_CTRB_FR_ASSET</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_CONTRIBUTION_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_CONTRIBUTION_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's contribution from income for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_CTRB_FR_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_CTRB_FR_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_CONTRIBUTION_OFFICIAL"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_CONTRIBUTION_OFFICIAL
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Indicates if the IM student contribution is official or estimated.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_CTRB_OFFL_EST"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_CTRB_OFFL_EST</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_CONTRIBUTION_OFFICIAL_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_CONTRIBUTION_OFFICIAL_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Description of the IM student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(10)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_C_2_CTRB_OFFL_EST)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_C_2_CTRB_OFFL_EST)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_CONVERSION_PERCENT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_CONVERSION_PERCENT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Conversion percent used in the student's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_CONV_PCT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_CONV_PCT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_DISCRET_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_DISCRET_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Student's discretionary net worth used in the IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_DISC_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_DISC_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_EMPLOYMENT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_EMPLOYMENT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Employment allowance used in the calculation of the student IM contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_EMP_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_EMP_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_FEDERAL_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_FEDERAL_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of federal income taxes paid used in the calculation of the IM student contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_US_INC_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_US_INC_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_HOME_EQUITY"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_HOME_EQUITY
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Home equity used in the student's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_HME_VAL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_HME_VAL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_INAS"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_INAS
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The  student contribution for the IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_CTRB_FOR_STDT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_CTRB_FOR_STDT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_INCOME_SUPPLEMENT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_INCOME_SUPPLEMENT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of the income supplement used in the student's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_INC_SUPPLEMENT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_INC_SUPPLEMENT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_MEDICAL_DENTAL_EXPENSE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_MEDICAL_DENTAL_EXPENSE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of medical or dental expenses used in the student's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_MED_DEN_EXP"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_MED_DEN_EXP</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_MULTI_ENROLL_ADJUSTED"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_MULTI_ENROLL_ADJUSTED
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Percentage of adjustment to the student contribution for differing numbers of family members in college.  Prior to 0001, this contains the number in college as used in the calculation of EFC.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_NO_IN_COLL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_NO_IN_COLL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of the student's net worth used in the IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_ADJUST_GROSS_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_ADJUST_GROSS_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Adjusted gross taxable income used in the calculation of the secondary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_AGI_TAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_AGI_TAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_ADJ_AVAILABLE_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_ADJ_AVAILABLE_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Adjusted available income used in the calculation of the IM parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_ADJ_AVAIL_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_ADJ_AVAIL_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_ADJ_BUS_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_ADJ_BUS_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of business and farm net worth used in the calculation of the secondary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_ADJ_BF_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_ADJ_BF_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_ANALYSIS_TYPE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_ANALYSIS_TYPE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Analysis type used for the IM parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_IM_1_PAR_ANLY_TYPE"><font color="#000000" face="Arial" size="2">RCRAPP2_IM_1_PAR_ANLY_TYPE</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_ANALYSIS_TYPE_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_ANALYSIS_TYPE_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Analysis type description.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(4000)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+&nbsp;
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+&nbsp;
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_ASSET_PROT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_ASSET_PROT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of the parent's asset protection allowance used in the calculation of the primary parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_PROT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_PROT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_AVAILABLE_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_AVAILABLE_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Parent's available discretionary income for the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_AVAIL_DISC_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_AVAIL_DISC_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_CASH_AMOUNT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_CASH_AMOUNT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Parent's estimated amounts in cash, savings and checking accounts used in the IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_CASH_AMT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_CASH_AMT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_CONTRIBUTION"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_CONTRIBUTION
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Primary institutional methodology parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_IM_1_PC"><font color="#000000" face="Arial" size="2">RCRAPP2_IM_1_PC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_CONTRIBUTION_ASSET"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_CONTRIBUTION_ASSET
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Portion of the primary parent contribution that came from income.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_C_PAR_2_CTRB_FR_ASSET)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_C_PAR_2_CTRB_FR_ASSET)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_CONTRIBUTION_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_CONTRIBUTION_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Portion of the primary parent contribution that came from income.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_CTRB_FR_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_CTRB_FR_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_CONTRIB_OFFICIAL"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_CONTRIB_OFFICIAL
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Indicates if the IM parent contribution is official or estimated.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_CTRB_OFFL_EST"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_CTRB_OFFL_EST</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_CONTRIB_OFF_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_CONTRIB_OFF_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Description of the IM parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(10)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_C_PAR_2_CTRB_OFFL_EST)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_C_PAR_2_CTRB_OFFL_EST)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_CONVERSION_PERCENT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_CONVERSION_PERCENT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Conversion percent used in the parent's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_CONV_PCT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_CONV_PCT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_DISCRET_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_DISCRET_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Parent's discretionary net worth used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_DISC_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_DISC_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_EMPLOYMENT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_EMPLOYMENT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Employment allowance used in the IM calculation of the parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_EMP_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_EMP_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_FEDERAL_INCOME_TAX"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_FEDERAL_INCOME_TAX
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of federal income tax paid by the parent.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_US_INC_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_US_INC_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_HOME_EQUITY"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_HOME_EQUITY
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Home equity used in the parent's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_HME_VAL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_HME_VAL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_INAS"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_INAS
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The  parent contribution for the IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_CTRB_FOR_STDT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_CTRB_FOR_STDT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_INCOME_SUPPLEMENT"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_INCOME_SUPPLEMENT
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of the income supplement used in the parent's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_INC_SUPPLEMENT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_INC_SUPPLEMENT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_MEDICAL_DENTAL_EXP"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_MEDICAL_DENTAL_EXP
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of medical and dental expenses used in the IM calculation of the parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_MED_DEN_EXP"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_MED_DEN_EXP</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_MULTI_ENROLLMENT_ADJ"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_MULTI_ENROLLMENT_ADJ
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Percentage of adjustment to the parent contribution for differing numbers of family members in college. Prior to 0001, this contains the number in college as used in the calculation of EFC.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_NO_IN_COLL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_NO_IN_COLL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_NET_WORTH"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_NET_WORTH
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of the parent's net worth used in the primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_NET_WTH"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_NET_WTH</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_REAL_ESTATE_EQUITY"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_REAL_ESTATE_EQUITY
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of other real estate/investment equity used in the parent's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_RE_INV_VAL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_RE_INV_VAL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_SECONDARY_TUITION_PD"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_SECONDARY_TUITION_PD
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The amount of elementary, jr. high, and high school tuition paid by the student's secondary parent contributor in the base year.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_SCH_TUIT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_SCH_TUIT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_STAND_MAINT_ALLOW"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_STAND_MAINT_ALLOW
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Standard maintenance allownace used in the IM calculation of the parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_MNT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_MNT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_STATE_PROV_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_STATE_PROV_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of state and other taxes paid used in the IM calculation of the parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_ST_OTH_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_ST_OTH_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_TOTAL_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_TOTAL_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Estimated amount of total allowances used in the parent's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_TOT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_TOT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_TOTAL_CONTRIBUTION"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_TOTAL_CONTRIBUTION
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total parent contribution before the number in college adjustment for the IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_TOT_CTRB"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_TOT_CTRB</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_TOTAL_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_TOTAL_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total income used in the calculation of the parent IM contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_TOT_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_TOT_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_PARENT_TOTAL_UNTAX_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_TOTAL_UNTAX_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of total untaxed income used in the parent's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_TOT_UNTAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_TOT_UNTAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_PARENT_WAGE_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_PARENT_WAGE_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of wage taxes used in the IM calculation of the parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_2_FICA_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_2_FICA_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_REAL_ESTATE_EQUITY"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_REAL_ESTATE_EQUITY
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of other real estate/investment equity used in the student's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_RE_INV_VAL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_RE_INV_VAL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_SECOND_TUITION_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_SECOND_TUITION_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of elementary/secondary school tuition paid that was used in the student's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_SCH_TUIT"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_SCH_TUIT</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_STAND_MAINT_ALLOWANCE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_STAND_MAINT_ALLOWANCE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Standard maintenance allowance used in the IM calculation of the student's contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_MNT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_MNT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_STATE_PROVINCE_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_STATE_PROVINCE_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of state or province and other taxes used in the student's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_ST_OTH_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_ST_OTH_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_TAXABLE_INCOME_CONTRIBUTION"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_TAXABLE_INCOME_CONTRIBUTION
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Taxable income contribution for single independent students for the IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_TAX_INC_CTRB"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_TAX_INC_CTRB</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_TOTAL_ALLOWANCES"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_TOTAL_ALLOWANCES
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of total allowances used in the student's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_TOT_ALLOW"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_TOT_ALLOW</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_TOTAL_CONTRIBUTION"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_TOTAL_CONTRIBUTION
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Total student contribution before the number in college adjustment for the IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_TOT_CTRB"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_TOT_CTRB</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_TOTAL_FAMILY_CONTRIBUTION"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_TOTAL_FAMILY_CONTRIBUTION
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Primary institutional methodology total family contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_IM_1_TFC"><font color="#000000" face="Arial" size="2">RCRAPP2_IM_1_TFC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_TOTAL_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_TOTAL_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The total income used in the student's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_TOT_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_TOT_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_TOTAL_UNTAX_INCOME"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_TOTAL_UNTAX_INCOME
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of total untaxed income used in the student's primary calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_TOT_UNTAX_INC"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_TOT_UNTAX_INC</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_UNASSESSED_VETERAN_BENEFITS"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_UNASSESSED_VETERAN_BENEFITS
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Unassessed VA benefits used in the primary IM student contribution calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_IM_1_UNASSESSED_VA"><font color="#000000" face="Arial" size="2">RCRAPP2_IM_1_UNASSESSED_VA</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="IM_VETERAN_BENEFITS_IND"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_VETERAN_BENEFITS_IND
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Indicates if VA benefits have been included in the calculation of the student's IM contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_C_2_VA_BEN_INCL)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_C_2_VA_BEN_INCL)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="IM_WAGE_TAX_PAID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+IM_WAGE_TAX_PAID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Amount of wage taxes used in the student's IM calculation.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_2_FICA_TAX"><font color="#000000" face="Arial" size="2">RCRAPP2_C_2_FICA_TAX</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="INTERFACE_TAPE_CODE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+INTERFACE_TAPE_CODE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Interface tape table indicating the source and format of the application record. (e.g., ACT, CSS, SAT, etc.).
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(7)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_INFC_CODE"><font color="#000000" face="Arial" size="2">RCRAPP2_INFC_CODE</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="MARITAL_STATUS"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+MARITAL_STATUS
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The computed student's marital status.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_MRTL_STATUS"><font color="#000000" face="Arial" size="2">RCRAPP2_C_MRTL_STATUS</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="MARITAL_STATUS_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+MARITAL_STATUS_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Description of the Student's marital status.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(20)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_C_MRTL_STATUS)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_C_MRTL_STATUS)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="MIF_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+MIF_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The institution description for the record when the optional multi-institution facility feature has been installed and applied for this table/column.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(30)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="NA_COMP_source.html"><font color="#000000" face="Arial" size="2">NA</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="NA_COMP_source.html#NA"><font color="#000000" face="Arial" size="2">NA</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="MIF_VALUE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+MIF_VALUE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The institution value for the record when the optional multi-institution facility feature has been installed and applied for this table/column.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(6)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="NA_COMP_source.html"><font color="#000000" face="Arial" size="2">NA</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="NA_COMP_source.html#NA"><font color="#000000" face="Arial" size="2">NA</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="OTHERS_NUMBER_IN_COLLEGE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+OTHERS_NUMBER_IN_COLLEGE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Number of non-parents in the household that will be in college as used in the calculation of parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_OTH_IN_COLL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_OTH_IN_COLL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="PARENT_FAMILY_IN_COLLEGE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+PARENT_FAMILY_IN_COLLEGE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Number of people in the parents household who will be in college as used in the calculation of the parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_NO_IN_COLL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_NO_IN_COLL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="PARENT_FAMILY_SIZE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+PARENT_FAMILY_SIZE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Number of family members in the parents' household as used in the calculation of the parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_FAM_MEMB"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_FAM_MEMB</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="PARENT_MARITAL_STATUS"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+PARENT_MARITAL_STATUS
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Parents' marital status as used in the calculation of the parent contribution.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_MRTL_STATUS"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_MRTL_STATUS</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="PARENT_MARITAL_STATUS_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+PARENT_MARITAL_STATUS_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Description of the parents' marital status.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(20)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_C_PAR_MRTL_STATUS)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_C_PAR_MRTL_STATUS)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="PARENT_NUMBER_IN_COLLEGE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+PARENT_NUMBER_IN_COLLEGE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Number in college that are parents of the student.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_C_PAR_PAR_IN_COLL"><font color="#000000" face="Arial" size="2">RCRAPP2_C_PAR_PAR_IN_COLL</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="PELL_EFC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+PELL_EFC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+The primary system Pell PGI.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_PGI"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_PGI</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="PELL_EFC_OFFICIAL"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+PELL_EFC_OFFICIAL
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Indicates if the primary system Pell PGI is official or estimated.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PELL_PGI_OFFL_EST"><font color="#000000" face="Arial" size="2">RCRAPP2_PELL_PGI_OFFL_EST</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="PELL_EFC_OFFICIAL_DESC"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+PELL_EFC_OFFICIAL_DESC
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Pell PGI official description.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(4000)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_PELL_PGI_OFFL_EST)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_PELL_PGI_OFFL_EST)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="PERSON_UID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+PERSON_UID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+System generated, unique, internal identification number assigned to this person.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+NUMBER
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_PIDM"><font color="#000000" face="Arial" size="2">RCRAPP2_PIDM</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="SAR_C_IND"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+SAR_C_IND
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Eligibility status message that is the result of data base matches indicating further investigation by the aid administrator needed.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_ELIGIBILITY_MSG)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_ELIGIBILITY_MSG)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="SIMPLIFIED_NEEDS_TEST_IND"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+SIMPLIFIED_NEEDS_TEST_IND
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Indicates if the Simplified Needs Test conditions have been met.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(1)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html"><font color="#000000" face="Arial" size="2">CALCULATION</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="CALCULATION_COMP_source.html#DECODE(RCRAPP2_PELL_ANLY_TYPE)"><font color="#000000" face="Arial" size="2">DECODE(RCRAPP2_PELL_ANLY_TYPE)</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" bgColor="FFFFCC">
+<A NAME="USER_ID"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+USER_ID
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Unique identification code of the user who entered or last touched the transaction.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(30)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html"><font color="#000000" face="Arial" size="2">RCRAPP2</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="RCRAPP2_COMP_source.html#RCRAPP2_USER_ID"><font color="#000000" face="Arial" size="2">RCRAPP2_USER_ID</font></a>
+</font>
+</tr>
+<TR vAlign="TOP" >
+<A NAME="ZONE_VALUE"></A>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+ZONE_VALUE
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+Zone column for future use, not currently populated.
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+VARCHAR2(6)
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="NA_COMP_source.html"><font color="#000000" face="Arial" size="2">NA</font></a>
+</font>
+<TD bordercolor="#c0c0c0"><font color="#000000" face="Arial" size="2">
+<p><a href="NA_COMP_source.html#NA"><font color="#000000" face="Arial" size="2">NA</font></a>
+</font>
+</tr>
+</table>
+<BR><BR><SMALL>Ver: </SMALL>
+<!-- Page generated: 19-JUL-2021 12:07:08 -->
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+</body></html>
