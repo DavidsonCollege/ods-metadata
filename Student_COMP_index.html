@@ -1,0 +1,728 @@
+<html><head>
+<title>Student Composite View Meta Data Reports</title>
+</head>
+<body>
+<FORM name="aform">
+<SCRIPT TYPE="text/javascript">
+<!--
+function gotoView() {
+    selnum = document.aform.groups.selectedIndex;
+    pagename = document.aform.groups[selnum].value;
+    window.location.href = pagename;
+}
+//-->
+</SCRIPT>
+<TABLE WIDTH="100%" BORDER=0>
+<TR>
+<TD Width="60%" ALIGN="RIGHT">
+<SMALL>Go To View:&nbsp;
+<SELECT name="groups" SIZE="1" onChange="return gotoView();">
+<OPTION value="">-- Select a View --
+<OPTION value="AA_ADVANCEMENT_RATING_COMP_target.html">AA_ADVANCEMENT_RATING
+<OPTION value="AA_ANNUAL_GIVING_COMP_target.html">AA_ANNUAL_GIVING
+<OPTION value="AA_CAMPAIGN_COMP_target.html">AA_CAMPAIGN
+<OPTION value="AA_CAMPAIGN_COMMENT_COMP_target.html">AA_CAMPAIGN_COMMENT
+<OPTION value="AA_CAMPAIGN_DESIGNATION_COMP_target.html">AA_CAMPAIGN_DESIGNATION
+<OPTION value="AA_CAMPAIGN_EXPENSE_COMP_target.html">AA_CAMPAIGN_EXPENSE
+<OPTION value="AA_CAMPAIGN_FUNDRAISER_COMP_target.html">AA_CAMPAIGN_FUNDRAISER
+<OPTION value="AA_CAMPAIGN_GIVING_HISTORY_COMP_target.html">AA_CAMPAIGN_GIVING_HISTORY
+<OPTION value="AA_CAMPAIGN_MAIL_COMP_target.html">AA_CAMPAIGN_MAIL
+<OPTION value="AA_CAMPAIGN_SOLICITATION_COMP_target.html">AA_CAMPAIGN_SOLICITATION
+<OPTION value="AA_CONSTITUENT_COMP_target.html">AA_CONSTITUENT
+<OPTION value="AA_CONSTITUENT_CONTACT_COMP_target.html">AA_CONSTITUENT_CONTACT
+<OPTION value="AA_CONSTITUENT_PLAN_COMP_target.html">AA_CONSTITUENT_PLAN
+<OPTION value="AA_CONSTITUENT_STAFF_ASSIGN_COMP_target.html">AA_CONSTITUENT_STAFF_ASSIGN
+<OPTION value="AA_CON_CONF_COMMENT_SUBJ_COMP_target.html">AA_CON_CONF_COMMENT_SUBJ
+<OPTION value="AA_CON_ENTITY_CONF_COMMENT_COMP_target.html">AA_CON_ENTITY_CONF_COMMENT
+<OPTION value="AA_DEGREE_COMP_target.html">AA_DEGREE
+<OPTION value="AA_DESIGNATION_COMP_target.html">AA_DESIGNATION
+<OPTION value="AA_DESIGNATION_ADJUSTMENT_COMP_target.html">AA_DESIGNATION_ADJUSTMENT
+<OPTION value="AA_DESIGNATION_ATTRIBUTE_COMP_target.html">AA_DESIGNATION_ATTRIBUTE
+<OPTION value="AA_DESIGNATION_CLASS_YEAR_COMP_target.html">AA_DESIGNATION_CLASS_YEAR
+<OPTION value="AA_DESIGNATION_COMMENT_COMP_target.html">AA_DESIGNATION_COMMENT
+<OPTION value="AA_DESIGNATION_COMMENT_SUBJ_COMP_target.html">AA_DESIGNATION_COMMENT_SUBJ
+<OPTION value="AA_DESIGNATION_FINAID_FUND_COMP_target.html">AA_DESIGNATION_FINAID_FUND
+<OPTION value="AA_DESIGNATION_GIVING_HISTORY_COMP_target.html">AA_DESIGNATION_GIVING_HISTORY
+<OPTION value="AA_DESIGNATION_ID_COMP_target.html">AA_DESIGNATION_ID
+<OPTION value="AA_DONOR_CATEGORY_COMP_target.html">AA_DONOR_CATEGORY
+<OPTION value="AA_EXCLUSION_COMP_target.html">AA_EXCLUSION
+<OPTION value="AA_FUNDING_INTEREST_COMP_target.html">AA_FUNDING_INTEREST
+<OPTION value="AA_GIFT_COMP_target.html">AA_GIFT
+<OPTION value="AA_GIFT_ASSOCIATED_ENTITY_COMP_target.html">AA_GIFT_ASSOCIATED_ENTITY
+<OPTION value="AA_GIFT_AUXILIARY_COMP_target.html">AA_GIFT_AUXILIARY
+<OPTION value="AA_GIFT_MATCHING_COMP_target.html">AA_GIFT_MATCHING
+<OPTION value="AA_GIFT_MEMO_COMP_target.html">AA_GIFT_MEMO
+<OPTION value="AA_GIFT_MULTIPLE_COMP_target.html">AA_GIFT_MULTIPLE
+<OPTION value="AA_GIFT_SOCIETY_COMP_target.html">AA_GIFT_SOCIETY
+<OPTION value="AA_INTEREST_COMP_target.html">AA_INTEREST
+<OPTION value="AA_MAIL_COMP_target.html">AA_MAIL
+<OPTION value="AA_MEMBERSHIP_COMP_target.html">AA_MEMBERSHIP
+<OPTION value="AA_MEMBERSHIP_DUES_COMP_target.html">AA_MEMBERSHIP_DUES
+<OPTION value="AA_MEMBERSHIP_INTEREST_COMP_target.html">AA_MEMBERSHIP_INTEREST
+<OPTION value="AA_ORGANIZATIONAL_CONSTITUENT_COMP_target.html">AA_ORGANIZATIONAL_CONSTITUENT
+<OPTION value="AA_ORGANIZATION_CONTACT_COMP_target.html">AA_ORGANIZATION_CONTACT
+<OPTION value="AA_ORGANIZATION_FUNDING_AREA_COMP_target.html">AA_ORGANIZATION_FUNDING_AREA
+<OPTION value="AA_PLEDGE_COMP_target.html">AA_PLEDGE
+<OPTION value="AA_PLEDGE_ASSOCIATED_ENTITY_COMP_target.html">AA_PLEDGE_ASSOCIATED_ENTITY
+<OPTION value="AA_PLEDGE_AUXILIARY_COMP_target.html">AA_PLEDGE_AUXILIARY
+<OPTION value="AA_PLEDGE_CONDITIONAL_COMP_target.html">AA_PLEDGE_CONDITIONAL
+<OPTION value="AA_PLEDGE_INSTALLMENT_COMP_target.html">AA_PLEDGE_INSTALLMENT
+<OPTION value="AA_PLEDGE_MATCHING_COMP_target.html">AA_PLEDGE_MATCHING
+<OPTION value="AA_PREVIOUS_EMPLOYMENT_COMP_target.html">AA_PREVIOUS_EMPLOYMENT
+<OPTION value="AA_PROJECT_INTEREST_COMP_target.html">AA_PROJECT_INTEREST
+<OPTION value="AA_PROSPECT_CONF_COMMENT_COMP_target.html">AA_PROSPECT_CONF_COMMENT
+<OPTION value="AA_PROSPECT_CONF_COMMENT_SUBJ_COMP_target.html">AA_PROSPECT_CONF_COMMENT_SUBJ
+<OPTION value="AA_PROSPECT_CONTACT_EXPENSE_COMP_target.html">AA_PROSPECT_CONTACT_EXPENSE
+<OPTION value="AA_PROSPECT_INFO_COMP_target.html">AA_PROSPECT_INFO
+<OPTION value="AA_PROSPECT_MOVES_MANAGEMENT_COMP_target.html">AA_PROSPECT_MOVES_MANAGEMENT
+<OPTION value="AA_PROSPECT_PROPOSAL_COMP_target.html">AA_PROSPECT_PROPOSAL
+<OPTION value="AA_PROSPECT_PROPOSAL_MASTER_COMP_target.html">AA_PROSPECT_PROPOSAL_MASTER
+<OPTION value="AA_PROSPECT_PROPOSAL_PROJECT_COMP_target.html">AA_PROSPECT_PROPOSAL_PROJECT
+<OPTION value="AA_PROSPECT_PROPOSAL_RESULT_COMP_target.html">AA_PROSPECT_PROPOSAL_RESULT
+<OPTION value="AA_PROSPECT_STAFF_ASSIGNMENT_COMP_target.html">AA_PROSPECT_STAFF_ASSIGNMENT
+<OPTION value="AA_RELATIONSHIP_COMP_target.html">AA_RELATIONSHIP
+<OPTION value="AA_SALUTATION_COMP_target.html">AA_SALUTATION
+<OPTION value="AA_SOLICITOR_COMP_target.html">AA_SOLICITOR
+<OPTION value="AA_SOLICITOR_ASSIGNMENT_COMP_target.html">AA_SOLICITOR_ASSIGNMENT
+<OPTION value="AA_SOLICITOR_ASSIGNMENT_RESULT_COMP_target.html">AA_SOLICITOR_ASSIGNMENT_RESULT
+<OPTION value="AA_SOLICITOR_ORGANIZATION_COMP_target.html">AA_SOLICITOR_ORGANIZATION
+<OPTION value="AA_SOLICITOR_ORG_COMMENT_COMP_target.html">AA_SOLICITOR_ORG_COMMENT
+<OPTION value="AA_SOLICITOR_ORG_FUNDRAISER_COMP_target.html">AA_SOLICITOR_ORG_FUNDRAISER
+<OPTION value="AA_SOL_ORG_FUNDRAISER_GOAL_COMP_target.html">AA_SOL_ORG_FUNDRAISER_GOAL
+<OPTION value="AA_SOL_ORG_GOAL_COMP_target.html">AA_SOL_ORG_GOAL
+<OPTION value="AA_SPECIAL_ACTIVITY_COMP_target.html">AA_SPECIAL_ACTIVITY
+<OPTION value="AA_SPECIAL_ACTIVITY_YEAR_COMP_target.html">AA_SPECIAL_ACTIVITY_YEAR
+<OPTION value="AA_SPECIAL_PURPOSE_GROUP_COMP_target.html">AA_SPECIAL_PURPOSE_GROUP
+<OPTION value="AA_VALIDATION_COMP_target.html">AA_VALIDATION
+<OPTION value="AA_YEAR_TYPE_DEFINITION_COMP_target.html">AA_YEAR_TYPE_DEFINITION
+<OPTION value="AE_ACCOUNTING_COMP_target.html">AE_ACCOUNTING
+<OPTION value="AE_APPROVAL_HISTORY_COMP_target.html">AE_APPROVAL_HISTORY
+<OPTION value="AE_AUTHORIZATION_COMP_target.html">AE_AUTHORIZATION
+<OPTION value="AE_CIRC_HEADER_STEP_COMP_target.html">AE_CIRC_HEADER_STEP
+<OPTION value="AE_CIRC_RECIP_NOTIF_COMP_target.html">AE_CIRC_RECIP_NOTIF
+<OPTION value="AE_DELEGATE_ASSIGNMENT_COMP_target.html">AE_DELEGATE_ASSIGNMENT
+<OPTION value="AE_EXPENSE_ITEM_COMP_target.html">AE_EXPENSE_ITEM
+<OPTION value="AE_EXPENSE_ITEM_TAX_COMP_target.html">AE_EXPENSE_ITEM_TAX
+<OPTION value="AE_ITINERARY_COMP_target.html">AE_ITINERARY
+<OPTION value="AE_PORTFOLIO_COMP_target.html">AE_PORTFOLIO
+<OPTION value="AE_PROFILE_COMP_target.html">AE_PROFILE
+<OPTION value="AE_REIMBURSEMENT_COMP_target.html">AE_REIMBURSEMENT
+<OPTION value="AE_STATUS_HISTORY_COMP_target.html">AE_STATUS_HISTORY
+<OPTION value="AF_ACCOUNT_ATTRIBUTES_ODS_COMP_target.html">AF_ACCOUNT_ATTRIBUTES_ODS
+<OPTION value="AF_ACCOUNT_HIERARCHY_COMP_target.html">AF_ACCOUNT_HIERARCHY
+<OPTION value="AF_ACCOUNT_HIERARCHY_FISCAL_COMP_target.html">AF_ACCOUNT_HIERARCHY_FISCAL
+<OPTION value="AF_ACCOUNT_INDEX_COMP_target.html">AF_ACCOUNT_INDEX
+<OPTION value="AF_ACCOUNT_TYPE_ATTRIBUTES_ODS_COMP_target.html">AF_ACCOUNT_TYPE_ATTRIBUTES_ODS
+<OPTION value="AF_ACTIVITY_ATTRIBUTES_ODS_COMP_target.html">AF_ACTIVITY_ATTRIBUTES_ODS
+<OPTION value="AF_ATTRIBUTE_SETS_ODS_COMP_target.html">AF_ATTRIBUTE_SETS_ODS
+<OPTION value="AF_BUDGET_AVAILABILITY_LEDGER_COMP_target.html">AF_BUDGET_AVAILABILITY_LEDGER
+<OPTION value="AF_BUDGET_DETAIL_COMP_target.html">AF_BUDGET_DETAIL
+<OPTION value="AF_CHART_ATTRIBUTES_ODS_COMP_target.html">AF_CHART_ATTRIBUTES_ODS
+<OPTION value="AF_CHECKS_COMP_target.html">AF_CHECKS
+<OPTION value="AF_CLAUSE_COMP_target.html">AF_CLAUSE
+<OPTION value="AF_ENCUMBRANCE_COMP_target.html">AF_ENCUMBRANCE
+<OPTION value="AF_ENCUMBRANCE_ACCOUNTING_COMP_target.html">AF_ENCUMBRANCE_ACCOUNTING
+<OPTION value="AF_ENCUMBRANCE_LEDGER_COMP_target.html">AF_ENCUMBRANCE_LEDGER
+<OPTION value="AF_ENDOWMENT_COMP_target.html">AF_ENDOWMENT
+<OPTION value="AF_ENDOWMENT_ATTRIBUTES_COMP_target.html">AF_ENDOWMENT_ATTRIBUTES
+<OPTION value="AF_ENDOWMENT_DIST_COMP_target.html">AF_ENDOWMENT_DIST
+<OPTION value="AF_ENDOWMENT_MARKET_VALUES_COMP_target.html">AF_ENDOWMENT_MARKET_VALUES
+<OPTION value="AF_ENDOWMENT_UNITS_COMP_target.html">AF_ENDOWMENT_UNITS
+<OPTION value="AF_FISCAL_PERIOD_COMP_target.html">AF_FISCAL_PERIOD
+<OPTION value="AF_FIXED_ASSET_ADJUSTMENT_COMP_target.html">AF_FIXED_ASSET_ADJUSTMENT
+<OPTION value="AF_FIXED_ASSET_ATTRIBUTES_COMP_target.html">AF_FIXED_ASSET_ATTRIBUTES
+<OPTION value="AF_FIXED_ASSET_DEPRECIATION_COMP_target.html">AF_FIXED_ASSET_DEPRECIATION
+<OPTION value="AF_FIXED_ASSET_FUNDING_SOURCE_COMP_target.html">AF_FIXED_ASSET_FUNDING_SOURCE
+<OPTION value="AF_FIXED_ASSET_ITEM_COMP_target.html">AF_FIXED_ASSET_ITEM
+<OPTION value="AF_FUND_ATTRIBUTES_ODS_COMP_target.html">AF_FUND_ATTRIBUTES_ODS
+<OPTION value="AF_FUND_HIERARCHY_COMP_target.html">AF_FUND_HIERARCHY
+<OPTION value="AF_FUND_HIERARCHY_FISCAL_COMP_target.html">AF_FUND_HIERARCHY_FISCAL
+<OPTION value="AF_FUND_TYPE_ATTRIBUTES_ODS_COMP_target.html">AF_FUND_TYPE_ATTRIBUTES_ODS
+<OPTION value="AF_GENERAL_LEDGER_COMP_target.html">AF_GENERAL_LEDGER
+<OPTION value="AF_GRANT_COMP_target.html">AF_GRANT
+<OPTION value="AF_GRANT_ATTRIBUTES_ODS_COMP_target.html">AF_GRANT_ATTRIBUTES_ODS
+<OPTION value="AF_GRANT_BILLING_DETAIL_COMP_target.html">AF_GRANT_BILLING_DETAIL
+<OPTION value="AF_GRANT_DEFERRED_COST_COMP_target.html">AF_GRANT_DEFERRED_COST
+<OPTION value="AF_GRANT_EVENT_COMP_target.html">AF_GRANT_EVENT
+<OPTION value="AF_GRANT_EVENT_STATUS_COMP_target.html">AF_GRANT_EVENT_STATUS
+<OPTION value="AF_GRANT_FUND_COMP_target.html">AF_GRANT_FUND
+<OPTION value="AF_GRANT_LEDGER_COMP_target.html">AF_GRANT_LEDGER
+<OPTION value="AF_GRANT_PERSONNEL_COMP_target.html">AF_GRANT_PERSONNEL
+<OPTION value="AF_INVOICE_COMP_target.html">AF_INVOICE
+<OPTION value="AF_INVOICE_ACCOUNTING_COMP_target.html">AF_INVOICE_ACCOUNTING
+<OPTION value="AF_INVOICE_CHECK_COMP_target.html">AF_INVOICE_CHECK
+<OPTION value="AF_INVOICE_ITEM_COMP_target.html">AF_INVOICE_ITEM
+<OPTION value="AF_INVOICE_TAX_RATE_COMP_target.html">AF_INVOICE_TAX_RATE
+<OPTION value="AF_LOCATION_ATTRIBUTES_ODS_COMP_target.html">AF_LOCATION_ATTRIBUTES_ODS
+<OPTION value="AF_LOCATION_HIERARCHY_COMP_target.html">AF_LOCATION_HIERARCHY
+<OPTION value="AF_LOCATION_HIERARCHY_FISCAL_COMP_target.html">AF_LOCATION_HIERARCHY_FISCAL
+<OPTION value="AF_OPERATING_LEDGER_COMP_target.html">AF_OPERATING_LEDGER
+<OPTION value="AF_ORGANIZATION_ATTRIBUTES_ODS_COMP_target.html">AF_ORGANIZATION_ATTRIBUTES_ODS
+<OPTION value="AF_ORGANIZATION_HIERARCHY_COMP_target.html">AF_ORGANIZATION_HIERARCHY
+<OPTION value="AF_ORGN_HIERARCHY_FISCAL_COMP_target.html">AF_ORGN_HIERARCHY_FISCAL
+<OPTION value="AF_PROGRAM_ATTRIBUTES_ODS_COMP_target.html">AF_PROGRAM_ATTRIBUTES_ODS
+<OPTION value="AF_PROGRAM_HIERARCHY_COMP_target.html">AF_PROGRAM_HIERARCHY
+<OPTION value="AF_PROGRAM_HIERARCHY_FISCAL_COMP_target.html">AF_PROGRAM_HIERARCHY_FISCAL
+<OPTION value="AF_PROPOSAL_COMP_target.html">AF_PROPOSAL
+<OPTION value="AF_PURCHASE_ORDER_COMP_target.html">AF_PURCHASE_ORDER
+<OPTION value="AF_PURCHASE_ORDER_ACCOUNTING_COMP_target.html">AF_PURCHASE_ORDER_ACCOUNTING
+<OPTION value="AF_PURCHASE_ORDER_ITEM_COMP_target.html">AF_PURCHASE_ORDER_ITEM
+<OPTION value="AF_PURCHASE_ORDER_TAX_RATE_COMP_target.html">AF_PURCHASE_ORDER_TAX_RATE
+<OPTION value="AF_RECEIVED_ITEM_COMP_target.html">AF_RECEIVED_ITEM
+<OPTION value="AF_RETURNED_ITEM_COMP_target.html">AF_RETURNED_ITEM
+<OPTION value="AF_TEXT_COMP_target.html">AF_TEXT
+<OPTION value="AF_TRANSACTION_HISTORY_COMP_target.html">AF_TRANSACTION_HISTORY
+<OPTION value="AF_VALIDATION_COMP_target.html">AF_VALIDATION
+<OPTION value="AF_VENDOR_COMP_target.html">AF_VENDOR
+<OPTION value="AF_VENDOR_TAXABLE_REPORTING_COMP_target.html">AF_VENDOR_TAXABLE_REPORTING
+<OPTION value="AG_ALTERNATIVE_ID_COMP_target.html">AG_ALTERNATIVE_ID
+<OPTION value="AG_COMMUNICATION_COMP_target.html">AG_COMMUNICATION
+<OPTION value="AG_EVENT_COMP_target.html">AG_EVENT
+<OPTION value="AG_EVENT_INVITEE_COMP_target.html">AG_EVENT_INVITEE
+<OPTION value="AG_GEOGRAPHIC_REGION_COMP_target.html">AG_GEOGRAPHIC_REGION
+<OPTION value="AG_GEOGRAPHIC_REGION_INST_COMP_target.html">AG_GEOGRAPHIC_REGION_INST
+<OPTION value="AG_INTERNET_ADDRESS_COMP_target.html">AG_INTERNET_ADDRESS
+<OPTION value="AG_SDE_DATA_COMP_target.html">AG_SDE_DATA
+<OPTION value="AG_VALIDATION_COMP_target.html">AG_VALIDATION
+<OPTION value="AN_EMPLOYEE_POSITION_COMP_target.html">AN_EMPLOYEE_POSITION
+<OPTION value="AN_FISCAL_YEAR_COMP_target.html">AN_FISCAL_YEAR
+<OPTION value="AN_FMLA_LEAVE_COMMENT_COMP_target.html">AN_FMLA_LEAVE_COMMENT
+<OPTION value="AN_JOB_FTE_TRACKING_COMP_target.html">AN_JOB_FTE_TRACKING
+<OPTION value="AN_LABOR_COST_DISTRIBUTION_COMP_target.html">AN_LABOR_COST_DISTRIBUTION
+<OPTION value="AN_PAYROLL_DISTRIBUTION_COMP_target.html">AN_PAYROLL_DISTRIBUTION
+<OPTION value="AN_PERSONNEL_ACTION_COMP_target.html">AN_PERSONNEL_ACTION
+<OPTION value="AN_PERSONNEL_ACTION_COMMENT_COMP_target.html">AN_PERSONNEL_ACTION_COMMENT
+<OPTION value="AN_PERSONNEL_ACTION_EARNING_COMP_target.html">AN_PERSONNEL_ACTION_EARNING
+<OPTION value="AN_PERSONNEL_ACTION_GENERAL_COMP_target.html">AN_PERSONNEL_ACTION_GENERAL
+<OPTION value="AN_PERSONNEL_ACTION_LABOR_DIST_COMP_target.html">AN_PERSONNEL_ACTION_LABOR_DIST
+<OPTION value="AN_POSITION_BUDGET_COMP_target.html">AN_POSITION_BUDGET
+<OPTION value="AN_POSITION_DEFINITION_COMP_target.html">AN_POSITION_DEFINITION
+<OPTION value="AN_POSITION_LABOR_DISTRIBUTION_COMP_target.html">AN_POSITION_LABOR_DISTRIBUTION
+<OPTION value="AN_SALARY_RATE_COMP_target.html">AN_SALARY_RATE
+<OPTION value="AN_SUPERVISOR_COMP_target.html">AN_SUPERVISOR
+<OPTION value="AN_VALIDATION_COMP_target.html">AN_VALIDATION
+<OPTION value="AP_BARGAINING_UNIT_COMP_target.html">AP_BARGAINING_UNIT
+<OPTION value="AP_BENEFICIARY_DEPENDENT_COMP_target.html">AP_BENEFICIARY_DEPENDENT
+<OPTION value="AP_BENEFIT_DEDUCTION_COMP_target.html">AP_BENEFIT_DEDUCTION
+<OPTION value="AP_CERTIFICATION_COMP_target.html">AP_CERTIFICATION
+<OPTION value="AP_EARNING_TOTALS_CY_COMP_target.html">AP_EARNING_TOTALS_CY
+<OPTION value="AP_EARNING_TOTALS_FY_COMP_target.html">AP_EARNING_TOTALS_FY
+<OPTION value="AP_EMPLOYEE_COMP_target.html">AP_EMPLOYEE
+<OPTION value="AP_EMPLOYEE_EARNING_CY_COMP_target.html">AP_EMPLOYEE_EARNING_CY
+<OPTION value="AP_EMPLOYEE_EARNING_FY_COMP_target.html">AP_EMPLOYEE_EARNING_FY
+<OPTION value="AP_FACULTY_APPOINTMENT_HISTORY_COMP_target.html">AP_FACULTY_APPOINTMENT_HISTORY
+<OPTION value="AP_FACULTY_RANK_HISTORY_COMP_target.html">AP_FACULTY_RANK_HISTORY
+<OPTION value="AP_FACULTY_SABBATICAL_HISTORY_COMP_target.html">AP_FACULTY_SABBATICAL_HISTORY
+<OPTION value="AP_FAMILY_MEDICAL_LEAVE_HIST_COMP_target.html">AP_FAMILY_MEDICAL_LEAVE_HIST
+<OPTION value="AP_HR_APPLICATION_COMP_target.html">AP_HR_APPLICATION
+<OPTION value="AP_HR_APPLICATION_STATUS_COMP_target.html">AP_HR_APPLICATION_STATUS
+<OPTION value="AP_HR_REQUISITION_COMP_target.html">AP_HR_REQUISITION
+<OPTION value="AP_INTERVIEW_COMP_target.html">AP_INTERVIEW
+<OPTION value="AP_LEAVE_ACCRUAL_COMP_target.html">AP_LEAVE_ACCRUAL
+<OPTION value="AP_LEAVE_BALANCE_COMP_target.html">AP_LEAVE_BALANCE
+<OPTION value="AP_MONTHLY_DEDUCTION_COMP_target.html">AP_MONTHLY_DEDUCTION
+<OPTION value="AP_PAST_EMPLOYMENT_COMP_target.html">AP_PAST_EMPLOYMENT
+<OPTION value="AP_PAYROLL_ATTENDANCE_COMP_target.html">AP_PAYROLL_ATTENDANCE
+<OPTION value="AP_PAYROLL_DEDUCTION_COMP_target.html">AP_PAYROLL_DEDUCTION
+<OPTION value="AP_PAYROLL_DOCUMENT_COMP_target.html">AP_PAYROLL_DOCUMENT
+<OPTION value="AP_PAYROLL_EARNING_COMP_target.html">AP_PAYROLL_EARNING
+<OPTION value="AP_PAYROLL_EMPLOYEE_POSITION_COMP_target.html">AP_PAYROLL_EMPLOYEE_POSITION
+<OPTION value="AP_PAYROLL_LABOR_DIST_OVERRIDE_COMP_target.html">AP_PAYROLL_LABOR_DIST_OVERRIDE
+<OPTION value="AP_PAYROLL_TIMESHEET_COMP_target.html">AP_PAYROLL_TIMESHEET
+<OPTION value="AP_REFERENCE_COMP_target.html">AP_REFERENCE
+<OPTION value="AP_REVIEW_COMP_target.html">AP_REVIEW
+<OPTION value="AP_SKILL_COMP_target.html">AP_SKILL
+<OPTION value="AP_TAX_COMP_target.html">AP_TAX
+<OPTION value="AP_VALIDATION_COMP_target.html">AP_VALIDATION
+<OPTION value="AP_YEARLY_DEDUCTION_COMP_target.html">AP_YEARLY_DEDUCTION
+<OPTION value="AR_APPLICANT_NEED_COMP_target.html">AR_APPLICANT_NEED
+<OPTION value="AR_APPLICANT_RESOURCE_COMP_target.html">AR_APPLICANT_RESOURCE
+<OPTION value="AR_AWARD_BY_AID_YEAR_COMP_target.html">AR_AWARD_BY_AID_YEAR
+<OPTION value="AR_AWARD_BY_FUND_COMP_target.html">AR_AWARD_BY_FUND
+<OPTION value="AR_AWARD_BY_PERSON_COMP_target.html">AR_AWARD_BY_PERSON
+<OPTION value="AR_AWARD_DISBURSEMENT_COMP_target.html">AR_AWARD_DISBURSEMENT
+<OPTION value="AR_FINAID_APPLICANT_STATUS_COMP_target.html">AR_FINAID_APPLICANT_STATUS
+<OPTION value="AR_FINAID_APPLICATION1_COMP_target.html">AR_FINAID_APPLICATION1
+<OPTION value="AR_FINAID_APPLICATION2_COMP_target.html">AR_FINAID_APPLICATION2
+<OPTION value="AR_FINAID_APPLICATION3_COMP_target.html">AR_FINAID_APPLICATION3
+<OPTION value="AR_FINAID_APPLICATION4_COMP_target.html">AR_FINAID_APPLICATION4
+<OPTION value="AR_FINAID_BUDGET_COMPONENT_COMP_target.html">AR_FINAID_BUDGET_COMPONENT
+<OPTION value="AR_FINAID_COMMENTS_COMP_target.html">AR_FINAID_COMMENTS
+<OPTION value="AR_FINAID_ENROLLMENT_COMP_target.html">AR_FINAID_ENROLLMENT
+<OPTION value="AR_FINAID_FUND_COMP_target.html">AR_FINAID_FUND
+<OPTION value="AR_FINAID_HOLD_COMP_target.html">AR_FINAID_HOLD
+<OPTION value="AR_FINAID_MESSAGE_COMP_target.html">AR_FINAID_MESSAGE
+<OPTION value="AR_FINAID_TRACKING_REQUIREMENT_COMP_target.html">AR_FINAID_TRACKING_REQUIREMENT
+<OPTION value="AR_FUND_MESSAGE_RULE_COMP_target.html">AR_FUND_MESSAGE_RULE
+<OPTION value="AR_LOAN_AGGREGATES_COMP_target.html">AR_LOAN_AGGREGATES
+<OPTION value="AR_LOAN_APPLICATION_COMP_target.html">AR_LOAN_APPLICATION
+<OPTION value="AR_LOAN_DISBURSEMENT_COMP_target.html">AR_LOAN_DISBURSEMENT
+<OPTION value="AR_NEED_ANALYSIS_ISIR_SPEC_COMP_target.html">AR_NEED_ANALYSIS_ISIR_SPEC
+<OPTION value="AR_NEED_ANALYSIS_OVERRIDE_COMP_target.html">AR_NEED_ANALYSIS_OVERRIDE
+<OPTION value="AR_NEED_ANALYSIS_PROFILE_SPEC_COMP_target.html">AR_NEED_ANALYSIS_PROFILE_SPEC
+<OPTION value="AR_SATISFACTORY_ACAD_PROGRESS_COMP_target.html">AR_SATISFACTORY_ACAD_PROGRESS
+<OPTION value="AR_STUDENT_PERIOD_DEFINITION_COMP_target.html">AR_STUDENT_PERIOD_DEFINITION
+<OPTION value="AR_USER_DEFINED_FIELDS_COMP_target.html">AR_USER_DEFINED_FIELDS
+<OPTION value="AR_VALIDATION_COMP_target.html">AR_VALIDATION
+<OPTION value="AR_YEAR_TYPE_DEFINITION_COMP_target.html">AR_YEAR_TYPE_DEFINITION
+<OPTION value="AS_ACADEMIC_HISTORY_EVENT_COMP_target.html">AS_ACADEMIC_HISTORY_EVENT
+<OPTION value="AS_ACADEMIC_OUTCOME_COMP_target.html">AS_ACADEMIC_OUTCOME
+<OPTION value="AS_ACADEMIC_STANDING_COMP_target.html">AS_ACADEMIC_STANDING
+<OPTION value="AS_ACTIVE_TERMS_COMP_target.html">AS_ACTIVE_TERMS
+<OPTION value="AS_ADDRESS_COMP_target.html">AS_ADDRESS
+<OPTION value="AS_ADMINISTRATOR_COMP_target.html">AS_ADMINISTRATOR
+<OPTION value="AS_ADMISSIONS_APPLICATION_COMP_target.html">AS_ADMISSIONS_APPLICATION
+<OPTION value="AS_ADMISSIONS_ATTRIBUTE_COMP_target.html">AS_ADMISSIONS_ATTRIBUTE
+<OPTION value="AS_ADMISSIONS_COHORT_COMP_target.html">AS_ADMISSIONS_COHORT
+<OPTION value="AS_ADMISSIONS_DECISION_COMP_target.html">AS_ADMISSIONS_DECISION
+<OPTION value="AS_ADMISSIONS_RATING_COMP_target.html">AS_ADMISSIONS_RATING
+<OPTION value="AS_ADMISSIONS_REQUIREMENT_COMP_target.html">AS_ADMISSIONS_REQUIREMENT
+<OPTION value="AS_ADMISSIONS_SOURCE_COMP_target.html">AS_ADMISSIONS_SOURCE
+<OPTION value="AS_ADVISOR_COMP_target.html">AS_ADVISOR
+<OPTION value="AS_CONTACT_COMP_target.html">AS_CONTACT
+<OPTION value="AS_COURSE_ATTRIBUTE_COMP_target.html">AS_COURSE_ATTRIBUTE
+<OPTION value="AS_COURSE_CATALOG_COMP_target.html">AS_COURSE_CATALOG
+<OPTION value="AS_COURSE_COREQ_COMP_target.html">AS_COURSE_COREQ
+<OPTION value="AS_COURSE_LEVEL_COMP_target.html">AS_COURSE_LEVEL
+<OPTION value="AS_COURSE_OFFERING_COMP_target.html">AS_COURSE_OFFERING
+<OPTION value="AS_COURSE_OFFERING_FEES_COMP_target.html">AS_COURSE_OFFERING_FEES
+<OPTION value="AS_COURSE_PREREQ_COMP_target.html">AS_COURSE_PREREQ
+<OPTION value="AS_COURSE_SCHEDULE_COMP_target.html">AS_COURSE_SCHEDULE
+<OPTION value="AS_COURSE_SUPPLEMENTAL_COMP_target.html">AS_COURSE_SUPPLEMENTAL
+<OPTION value="AS_CURRICULUM_COMP_target.html">AS_CURRICULUM
+<OPTION value="AS_CURRICULUM_FOS_COMP_target.html">AS_CURRICULUM_FOS
+<OPTION value="AS_DISABILITY_INFORMATION_COMP_target.html">AS_DISABILITY_INFORMATION
+<OPTION value="AS_ENROLLMENT_COMP_target.html">AS_ENROLLMENT
+<OPTION value="AS_ENROLLMENT_HISTORY_COMP_target.html">AS_ENROLLMENT_HISTORY
+<OPTION value="AS_ENROLLMENT_WITHDRAWAL_COMP_target.html">AS_ENROLLMENT_WITHDRAWAL
+<OPTION value="AS_FACULTY_COMP_target.html">AS_FACULTY
+<OPTION value="AS_FACULTY_ATTRIBUTE_COMP_target.html">AS_FACULTY_ATTRIBUTE
+<OPTION value="AS_FACULTY_CONTRACT_COMP_target.html">AS_FACULTY_CONTRACT
+<OPTION value="AS_FACULTY_DEPARTMENT_COLLEGE_COMP_target.html">AS_FACULTY_DEPARTMENT_COLLEGE
+<OPTION value="AS_FACULTY_FEEDBACK_COMP_target.html">AS_FACULTY_FEEDBACK
+<OPTION value="AS_FACULTY_FEEDBACK_DETAIL_COMP_target.html">AS_FACULTY_FEEDBACK_DETAIL
+<OPTION value="AS_FIELD_OF_STUDY_COMP_target.html">AS_FIELD_OF_STUDY
+<OPTION value="AS_GENERAL_STUDENT_COMP_target.html">AS_GENERAL_STUDENT
+<OPTION value="AS_GENSTU_END_TERM_COMP_target.html">AS_GENSTU_END_TERM
+<OPTION value="AS_GPA_LEVEL_COMP_target.html">AS_GPA_LEVEL
+<OPTION value="AS_GPA_TERM_COMP_target.html">AS_GPA_TERM
+<OPTION value="AS_HOLD_COMP_target.html">AS_HOLD
+<OPTION value="AS_INSTITUTION_COMP_target.html">AS_INSTITUTION
+<OPTION value="AS_INSTITUTION_CHARACTERISTIC_COMP_target.html">AS_INSTITUTION_CHARACTERISTIC
+<OPTION value="AS_INSTITUTION_DEMOGRAPHIC_COMP_target.html">AS_INSTITUTION_DEMOGRAPHIC
+<OPTION value="AS_INSTRUCTIONAL_ASSIGNMENT_COMP_target.html">AS_INSTRUCTIONAL_ASSIGNMENT
+<OPTION value="AS_INTEREST_COMP_target.html">AS_INTEREST
+<OPTION value="AS_LEARNER_CURRICULUM_FOS_COMP_target.html">AS_LEARNER_CURRICULUM_FOS
+<OPTION value="AS_MEAL_ASSIGNMENT_COMP_target.html">AS_MEAL_ASSIGNMENT
+<OPTION value="AS_MEDICAL_INFORMATION_COMP_target.html">AS_MEDICAL_INFORMATION
+<OPTION value="AS_MEETING_TIME_COMP_target.html">AS_MEETING_TIME
+<OPTION value="AS_NONINSTRUCTIONAL_ASSIGNMENT_COMP_target.html">AS_NONINSTRUCTIONAL_ASSIGNMENT
+<OPTION value="AS_OFFERING_COREQ_COMP_target.html">AS_OFFERING_COREQ
+<OPTION value="AS_OFFERING_GRADE_MODE_COMP_target.html">AS_OFFERING_GRADE_MODE
+<OPTION value="AS_OFFERING_GRADE_TYPE_COMP_target.html">AS_OFFERING_GRADE_TYPE
+<OPTION value="AS_OFFERING_PREREQ_COMP_target.html">AS_OFFERING_PREREQ
+<OPTION value="AS_ORGANIZATION_ENTITY_COMP_target.html">AS_ORGANIZATION_ENTITY
+<OPTION value="AS_OUTCOME_HONOR_DEPT_COMP_target.html">AS_OUTCOME_HONOR_DEPT
+<OPTION value="AS_OUTCOME_HONOR_INST_COMP_target.html">AS_OUTCOME_HONOR_INST
+<OPTION value="AS_PERSON_COMP_target.html">AS_PERSON
+<OPTION value="AS_PHONE_ASSIGNMENT_COMP_target.html">AS_PHONE_ASSIGNMENT
+<OPTION value="AS_PREVIOUS_DEGREE_COMP_target.html">AS_PREVIOUS_DEGREE
+<OPTION value="AS_PREVIOUS_EDUCATION_HSCH_COMP_target.html">AS_PREVIOUS_EDUCATION_HSCH
+<OPTION value="AS_PREVIOUS_EDUCATION_PCOL_COMP_target.html">AS_PREVIOUS_EDUCATION_PCOL
+<OPTION value="AS_PRE_STUDENT_COMP_target.html">AS_PRE_STUDENT
+<OPTION value="AS_RACE_COMP_target.html">AS_RACE
+<OPTION value="AS_RECRUITMENT_ATTRIBUTE_COMP_target.html">AS_RECRUITMENT_ATTRIBUTE
+<OPTION value="AS_RECRUITMENT_COHORT_COMP_target.html">AS_RECRUITMENT_COHORT
+<OPTION value="AS_RECRUITMENT_INFORMATION_COMP_target.html">AS_RECRUITMENT_INFORMATION
+<OPTION value="AS_RECRUITMENT_LEARNED_COMP_target.html">AS_RECRUITMENT_LEARNED
+<OPTION value="AS_RECRUITMENT_SOURCE_COMP_target.html">AS_RECRUITMENT_SOURCE
+<OPTION value="AS_ROOM_ASSIGNMENT_COMP_target.html">AS_ROOM_ASSIGNMENT
+<OPTION value="AS_SCHEDULE_ATTRIBUTE_COMP_target.html">AS_SCHEDULE_ATTRIBUTE
+<OPTION value="AS_SECONDARY_SCHOOL_SUBJECT_COMP_target.html">AS_SECONDARY_SCHOOL_SUBJECT
+<OPTION value="AS_SPORT_COMP_target.html">AS_SPORT
+<OPTION value="AS_STUDENT_ACTIVITY_COMP_target.html">AS_STUDENT_ACTIVITY
+<OPTION value="AS_STUDENT_ATTRIBUTE_COMP_target.html">AS_STUDENT_ATTRIBUTE
+<OPTION value="AS_STUDENT_CLASSIFICATION_COMP_target.html">AS_STUDENT_CLASSIFICATION
+<OPTION value="AS_STUDENT_COHORT_COMP_target.html">AS_STUDENT_COHORT
+<OPTION value="AS_STUDENT_COURSE_ATTRIBUTE_COMP_target.html">AS_STUDENT_COURSE_ATTRIBUTE
+<OPTION value="AS_STUDENT_COURSE_ATTR_TRANS_COMP_target.html">AS_STUDENT_COURSE_ATTR_TRANS
+<OPTION value="AS_STUDENT_COURSE_GRADE_CHG_COMP_target.html">AS_STUDENT_COURSE_GRADE_CHG
+<OPTION value="AS_STUDENT_COURSE_HISTORY_COMP_target.html">AS_STUDENT_COURSE_HISTORY
+<OPTION value="AS_STUDENT_COURSE_IN_PROGRESS_COMP_target.html">AS_STUDENT_COURSE_IN_PROGRESS
+<OPTION value="AS_STUDENT_COURSE_REG_AUDIT_COMP_target.html">AS_STUDENT_COURSE_REG_AUDIT
+<OPTION value="AS_STUDENT_COURSE_TRANSFER_COMP_target.html">AS_STUDENT_COURSE_TRANSFER
+<OPTION value="AS_STUDENT_TRANSFERRED_COURSE_COMP_target.html">AS_STUDENT_TRANSFERRED_COURSE
+<OPTION value="AS_STUDENT_WORK_EXPERIENCE_COMP_target.html">AS_STUDENT_WORK_EXPERIENCE
+<OPTION value="AS_TELEPHONE_COMP_target.html">AS_TELEPHONE
+<OPTION value="AS_TEST_COMP_target.html">AS_TEST
+<OPTION value="AS_TRANSCRIPT_LEVEL_COMMENT_COMP_target.html">AS_TRANSCRIPT_LEVEL_COMMENT
+<OPTION value="AS_TRANSCRIPT_TERM_COMMENT_COMP_target.html">AS_TRANSCRIPT_TERM_COMMENT
+<OPTION value="AS_VALIDATION_COMP_target.html">AS_VALIDATION
+<OPTION value="AS_VETERAN_CERTIFICATION_COMP_target.html">AS_VETERAN_CERTIFICATION
+<OPTION value="AS_VISA_COMP_target.html">AS_VISA
+<OPTION value="AS_YEAR_TYPE_DEFINITION_COMP_target.html">AS_YEAR_TYPE_DEFINITION
+<OPTION value="AT_ACCOUNT_COMP_target.html">AT_ACCOUNT
+<OPTION value="AT_ACCOUNT_DETAIL_COMP_target.html">AT_ACCOUNT_DETAIL
+<OPTION value="AT_APPLICATION_OF_PAYMENT_COMP_target.html">AT_APPLICATION_OF_PAYMENT
+<OPTION value="AT_AR_DEPOSIT_COMP_target.html">AT_AR_DEPOSIT
+<OPTION value="AT_CONTRACT_COMP_target.html">AT_CONTRACT
+<OPTION value="AT_CONTRACT_PAYMENT_DETAIL_COMP_target.html">AT_CONTRACT_PAYMENT_DETAIL
+<OPTION value="AT_EXEMPTION_COMP_target.html">AT_EXEMPTION
+<OPTION value="AT_GRANT_ACCOUNT_DETAIL_COMP_target.html">AT_GRANT_ACCOUNT_DETAIL
+<OPTION value="AT_GRANT_APPLICATION_PAYMENT_COMP_target.html">AT_GRANT_APPLICATION_PAYMENT
+<OPTION value="AT_INSTALLMENT_PLAN_COMP_target.html">AT_INSTALLMENT_PLAN
+<OPTION value="AT_LEDGER_ACCOUNTING_COMP_target.html">AT_LEDGER_ACCOUNTING
+<OPTION value="AT_MEMO_COMP_target.html">AT_MEMO
+<OPTION value="AT_MISCELLANEOUS_TRANSACTION_COMP_target.html">AT_MISCELLANEOUS_TRANSACTION
+<OPTION value="AT_STUDENT_TAX_NOTIFICATION_COMP_target.html">AT_STUDENT_TAX_NOTIFICATION
+<OPTION value="AT_VALIDATION_COMP_target.html">AT_VALIDATION
+</SELECT>
+<TD ALIGN="RIGHT"><SMALL><B><A HREF="COMP_index.html">RETURN TO BANNER COMP META DATA REPORTS LIST</A></B></SMALL></TD></TR></TABLE><BR>
+</TABLE><BR>
+<H3>Student Composite View Meta Data Reports</H3>
+<B>Target Reports:</B><BR><BR>
+<TABLE>
+<TD><B><U>Composite View<TD><B><U>Description
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_ACADEMIC_HISTORY_EVENT_COMP_target.html">AS_ACADEMIC_HISTORY_EVENT</a><BR><TD><SMALL>Contains data pertaining to a student's academic history events.<TD><SMALL>One row per person<TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_ACADEMIC_OUTCOME_COMP_target.html">AS_ACADEMIC_OUTCOME</a><BR><TD><SMALL>Source composite view contains information associated with each academic outcome tracked by the institution.  Information is displayed as one row per outcome award, degree or certificate, etc.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_ACADEMIC_STANDING_COMP_target.html">AS_ACADEMIC_STANDING</a><BR><TD><SMALL>Source composite view contains any academic status values assigned to a student for the term in which they were assigned.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_ACTIVE_TERMS_COMP_target.html">AS_ACTIVE_TERMS</a><BR><TD><SMALL>Source composite view contains all students and the terms in which they have activity.  This includes academic periods with a new base student record, enrollment activity, academic history, transfer activity, graduation, a cohort entry, sports participation, student attributes, student activities, student work experience, financial aid application or awards, and accounts receivable detail or student contracts.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_ADMINISTRATOR_COMP_target.html">AS_ADMINISTRATOR</a><BR><TD><SMALL>Source composite view contains information about all the persons who will rate admission applicants.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_ADMISSIONS_APPLICATION_COMP_target.html">AS_ADMISSIONS_APPLICATION</a><BR><TD><SMALL>Source composite view contains information specific to each different application submitted by the applicant.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_ADMISSIONS_ATTRIBUTE_COMP_target.html">AS_ADMISSIONS_ATTRIBUTE</a><BR><TD><SMALL>Source composite view contains information that identifies special characteristics associated with the applicant for tracking and special reporting.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_ADMISSIONS_COHORT_COMP_target.html">AS_ADMISSIONS_COHORT</a><BR><TD><SMALL>Source composite view contains information that identifies the applicant with a particular group for tracking and reporting purposes.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_ADMISSIONS_DECISION_COMP_target.html">AS_ADMISSIONS_DECISION</a><BR><TD><SMALL>Source composite view contains all of the admissions decisions recorded for each admission application.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_ADMISSIONS_RATING_COMP_target.html">AS_ADMISSIONS_RATING</a><BR><TD><SMALL>Source composite view contains all administrator ratings recorded for the applicant as a part of the admission evaluation processing.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_ADMISSIONS_REQUIREMENT_COMP_target.html">AS_ADMISSIONS_REQUIREMENT</a><BR><TD><SMALL>Source composite view contains all application requirements for each application and whether or not the document or process has been completed for this application.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_ADMISSIONS_SOURCE_COMP_target.html">AS_ADMISSIONS_SOURCE</a><BR><TD><SMALL>Source composite view contains information that identifies the reason or source responsible for the applicant submitting the admission application.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_ADVISOR_COMP_target.html">AS_ADVISOR</a><BR><TD><SMALL>Source composite view contains all current advisors associated with a student.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_COURSE_ATTRIBUTE_COMP_target.html">AS_COURSE_ATTRIBUTE</a><BR><TD><SMALL>Source composite view contains all of the course degree attributes associated with the course catalog entry for the academic period.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_COURSE_CATALOG_COMP_target.html">AS_COURSE_CATALOG</a><BR><TD><SMALL>Source composite view contains all of the informational details recorded for the subject or course at a specific time frame or academic period.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_COURSE_COREQ_COMP_target.html">AS_COURSE_COREQ</a><BR><TD><SMALL>Source composite view contains all of the course catalog entries that are required to be taken in the same academic period as the key subject or course.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_COURSE_LEVEL_COMP_target.html">AS_COURSE_LEVEL</a><BR><TD><SMALL>Source composite view contains all of the levels for which credit can be earned for this subject or course.  Included may be undergraduate, graduate, post graduate, etc.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_COURSE_OFFERING_COMP_target.html">AS_COURSE_OFFERING</a><BR><TD><SMALL>Source composite view contains all sections or schedule offerings for a specific academic period.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_COURSE_OFFERING_FEES_COMP_target.html">AS_COURSE_OFFERING_FEES</a><BR><TD><SMALL>Source composite view contains all of the fees that will be charged when a student registers for this section. This may include a flat fee for the section or an amount charge per each credit registered for this course. This may also include curriculum values if they were used in defining the rule to assess this course offering fee.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_COURSE_PREREQ_COMP_target.html">AS_COURSE_PREREQ</a><BR><TD><SMALL>Source composite view contains all of the course catalog entries that are required to be taken in a prior academic period as the key subject or course.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_COURSE_SCHEDULE_COMP_target.html">AS_COURSE_SCHEDULE</a><BR><TD><SMALL>Source composite view contains all of the instructional or delivery methods approved for this course or subject.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_COURSE_SUPPLEMENTAL_COMP_target.html">AS_COURSE_SUPPLEMENTAL</a><BR><TD><SMALL>Source composite view contains additional information about the course that may have the specific purpose to accommodate reporting requirements of the institution.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_CURRICULUM_COMP_target.html">AS_CURRICULUM</a><BR><TD><SMALL>Source composite view contains all active, inactive, current, and and non-current curricula for all students identified in recruiting, admissions, student and academic outcome.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_CURRICULUM_FOS_COMP_target.html">AS_CURRICULUM_FOS</a><BR><TD><SMALL>Source composite view contains all active and current curricula for all students identified in recruiting, admissions, and academic outcome as well as all active and current fields of study for Major, Minor, and Concentrations.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_ENROLLMENT_COMP_target.html">AS_ENROLLMENT</a><BR><TD><SMALL>Source composite view contains the academic period based fields needed to support the creation of the Student and Academic Study reporting views.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_ENROLLMENT_HISTORY_COMP_target.html">AS_ENROLLMENT_HISTORY</a><BR><TD><SMALL>Source composite view contains the academic period based fields needed to support the creation of the Student and Academic Study reporting views.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_ENROLLMENT_WITHDRAWAL_COMP_target.html">AS_ENROLLMENT_WITHDRAWAL</a><BR><TD><SMALL>Source composite view contains the academic period based fields needed to support the creation of the enrollment withdrawal reporting view.<TD><SMALL>One row per person per academic period per withdrawal record number.<TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_FACULTY_COMP_target.html">AS_FACULTY</a><BR><TD><SMALL>Source composite view contains all the information required to identify a member of academic staff or an instructor at the institution.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_FACULTY_ATTRIBUTE_COMP_target.html">AS_FACULTY_ATTRIBUTE</a><BR><TD><SMALL>Source composite view contains information that identifies special characteristics associated with the faculty member for tracking and special reporting.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_FACULTY_CONTRACT_COMP_target.html">AS_FACULTY_CONTRACT</a><BR><TD><SMALL>Source composite view contains all information for an academic period regarding the faculty contracts for that time frame.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_FACULTY_DEPARTMENT_COLLEGE_COMP_target.html">AS_FACULTY_DEPARTMENT_COLLEGE</a><BR><TD><SMALL>Source composite view contains all of the college and departmental associations for the faculty member in this academic period.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_FACULTY_FEEDBACK_COMP_target.html">AS_FACULTY_FEEDBACK</a><BR><TD><SMALL>Contains informational data about the faculty feedback session rules and the student estimated grade and comment entered by the faculty member of the feedback session.  This data may be combined with the faculty feedback detail regarding all issues or recommendations recorded the instructor to obtain complete mandatory and optional input for student registered for the academic period in a student course.<TD><SMALL>One row per academic period per course reference number per feedback session per person<TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_FACULTY_FEEDBACK_DETAIL_COMP_target.html">AS_FACULTY_FEEDBACK_DETAIL</a><BR><TD><SMALL>Source composite view contains information about faculty feedback recorded for students registered in a student course where feedback by the instructor was required or optional.<TD><SMALL>One row per feedback session per academic period per course reference number per person per feedback (issue or recommendation)<TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_FIELD_OF_STUDY_COMP_target.html">AS_FIELD_OF_STUDY</a><BR><TD><SMALL>Source composite view contains all active, inactive, current, and and non-current fields of study for all students identified in recruiting, admissions, student and academic outcome.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_GENERAL_STUDENT_COMP_target.html">AS_GENERAL_STUDENT</a><BR><TD><SMALL>Source composite view contains information associated with each program/curriculum for a student. A student may have as many academic study or program records as permitted by the institution ERP system.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_GENSTU_END_TERM_COMP_target.html">AS_GENSTU_END_TERM</a><BR></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_GPA_LEVEL_COMP_target.html">AS_GPA_LEVEL</a><BR><TD><SMALL>Source composite view contains student's GPA values as stored by type (institutional, transfer or overall) cumulative for all courses by each student level at which the student attended courses and received grades or transfered course work.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_GPA_TERM_COMP_target.html">AS_GPA_TERM</a><BR><TD><SMALL>Source composite view contains student's GPA values as stored for either institutional or transger courses completed by the student and recorded for the academic periods.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_INSTRUCTIONAL_ASSIGNMENT_COMP_target.html">AS_INSTRUCTIONAL_ASSIGNMENT</a><BR><TD><SMALL>Source composite view contains all the instructors and the teaching assignments they have for the academic period.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_LEARNER_CURRICULUM_FOS_COMP_target.html">AS_LEARNER_CURRICULUM_FOS</a><BR><TD><SMALL>Source composite view contains all active and current curricula for all students identified in the Student module as well as all active and current fields of study for Major, Minor, and Concentrations.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_MEAL_ASSIGNMENT_COMP_target.html">AS_MEAL_ASSIGNMENT</a><BR><TD><SMALL>Source composite view contains all meal plan information.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_MEETING_TIME_COMP_target.html">AS_MEETING_TIME</a><BR><TD><SMALL>Source composite view contains all the meeting time records for each section or schedule offering by academic period.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_NONINSTRUCTIONAL_ASSIGNMENT_COMP_target.html">AS_NONINSTRUCTIONAL_ASSIGNMENT</a><BR><TD><SMALL>Source composite view contains all the instructors and all non teaching assignments they have for the academic period. Include may be assignments like administrator, department chair, coach, etc.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_OFFERING_COREQ_COMP_target.html">AS_OFFERING_COREQ</a><BR><TD><SMALL>Source composite view contains all of the co requisite subjects or course for a section or schedule offering that must be taken in the same academic period.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_OFFERING_GRADE_MODE_COMP_target.html">AS_OFFERING_GRADE_MODE</a><BR><TD><SMALL>Source composite view contains all of the different grading modes available for the section.  Included may be standard, pass/fail, audit or visitor grading, etc.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_OFFERING_GRADE_TYPE_COMP_target.html">AS_OFFERING_GRADE_TYPE</a><BR><TD><SMALL>Contains grade options or types of grades available for this schedule offering (section). This data will be either a specific grade type specified for the section or one or more values permited for the course identification from the course catalog.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_OFFERING_PREREQ_COMP_target.html">AS_OFFERING_PREREQ</a><BR><TD><SMALL>Source composite view contains all of the prerequisite subjects or course for a section or schedule offering that must be completed prior to this academic period.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_OUTCOME_HONOR_DEPT_COMP_target.html">AS_OUTCOME_HONOR_DEPT</a><BR><TD><SMALL>Source composite view contains the outcome departmental honors recorded for a specific academic outcome.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_OUTCOME_HONOR_INST_COMP_target.html">AS_OUTCOME_HONOR_INST</a><BR><TD><SMALL>Source composite view contains the outcome institutional honors recorded for a specific academic outcome.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_PHONE_ASSIGNMENT_COMP_target.html">AS_PHONE_ASSIGNMENT</a><BR><TD><SMALL>Source composite view contains all telephone assignment information.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_PRE_STUDENT_COMP_target.html">AS_PRE_STUDENT</a><BR><TD><SMALL>Source composite view contains information on the person who has inquired or applied to be a student or has become a student at the institution. Included is secondary and post secondary information.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_RECRUITMENT_ATTRIBUTE_COMP_target.html">AS_RECRUITMENT_ATTRIBUTE</a><BR><TD><SMALL>Source composite view contains information that identifies special characteristics associated with the person who has asked for information on the institution.  Attributes are to be used for tracking and special reporting.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_RECRUITMENT_COHORT_COMP_target.html">AS_RECRUITMENT_COHORT</a><BR><TD><SMALL>Source composite view contains information that identifies the inquirer with a particular group for tracking and reporting purposes.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_RECRUITMENT_INFORMATION_COMP_target.html">AS_RECRUITMENT_INFORMATION</a><BR><TD><SMALL>Source composite view contains recruiting information for a person.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_RECRUITMENT_LEARNED_COMP_target.html">AS_RECRUITMENT_LEARNED</a><BR><TD><SMALL>Identifies the recruiting learned information for a person.<TD><SMALL>One row per person per academic year per sequence number per learned code.<TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_RECRUITMENT_SOURCE_COMP_target.html">AS_RECRUITMENT_SOURCE</a><BR><TD><SMALL>Source composite view contains the first recruitment source listed for the person.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_ROOM_ASSIGNMENT_COMP_target.html">AS_ROOM_ASSIGNMENT</a><BR><TD><SMALL>Source composite view contains room assignments.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_SCHEDULE_ATTRIBUTE_COMP_target.html">AS_SCHEDULE_ATTRIBUTE</a><BR><TD><SMALL>Contains attribute information on the course schedule.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_SPORT_COMP_target.html">AS_SPORT</a><BR><TD><SMALL>Source composite view contains all sports associated with a student.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_STUDENT_ACTIVITY_COMP_target.html">AS_STUDENT_ACTIVITY</a><BR><TD><SMALL>Source composite view contains one row for each activity listed for the student.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_STUDENT_ATTRIBUTE_COMP_target.html">AS_STUDENT_ATTRIBUTE</a><BR><TD><SMALL>Source composite view contains the student attributes associated with the student record.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_STUDENT_CLASSIFICATION_COMP_target.html">AS_STUDENT_CLASSIFICATION</a><BR></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_STUDENT_COHORT_COMP_target.html">AS_STUDENT_COHORT</a><BR><TD><SMALL>Source composite view contains all student cohort information.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_STUDENT_COURSE_ATTRIBUTE_COMP_target.html">AS_STUDENT_COURSE_ATTRIBUTE</a><BR><TD><SMALL>Source composite view contains course attribute information that indicates which courses may be used to satisfy outcome requirements.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_STUDENT_COURSE_ATTR_TRANS_COMP_target.html">AS_STUDENT_COURSE_ATTR_TRANS</a><BR><TD><SMALL>Source composite view contains course attribute information that indicates which courses may be used to satisfy outcome requirements.  This may be for institutional or for transfer subjects completed by the student.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_STUDENT_COURSE_GRADE_CHG_COMP_target.html">AS_STUDENT_COURSE_GRADE_CHG</a><BR><TD><SMALL>Source composite view contains information about the grade or grades assigned to the student for this course.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_STUDENT_COURSE_HISTORY_COMP_target.html">AS_STUDENT_COURSE_HISTORY</a><BR><TD><SMALL>Source composite view contains information about the courses taken by a student.  It tracks registered, graded and transfer courses.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_STUDENT_COURSE_IN_PROGRESS_COMP_target.html">AS_STUDENT_COURSE_IN_PROGRESS</a><BR><TD><SMALL>Source composite view contains information about the courses taken by a student.  It tracks registered, graded and transfer courses.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_STUDENT_COURSE_REG_AUDIT_COMP_target.html">AS_STUDENT_COURSE_REG_AUDIT</a><BR><TD><SMALL>Contains audit information for all student registration activity.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_STUDENT_COURSE_TRANSFER_COMP_target.html">AS_STUDENT_COURSE_TRANSFER</a><BR><TD><SMALL>Source composite view contains information about the courses taken by a student.  It tracks registered, graded and transfer courses.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_STUDENT_TRANSFERRED_COURSE_COMP_target.html">AS_STUDENT_TRANSFERRED_COURSE</a><BR><TD><SMALL>Contains detail data for a each course a student completed at another institution for which this institution is granted equivalent course credit. This reporting view will contain the details as recorded on the received transfer institution transcript as well as the institution equivalent course for which the student is receiving credit. This reporting will show one row for each Transfer Course Detail Repeating Table  (SHRTRCE) and Transfer Course Equivalent Repeating Table (SHRTRCE) combination.  Therefore they may be more than one row per entry on either the transfere course or the equivalent course.  This reporting view should not be used in combination with the STUDENT_COURSE reporting view which will have one row per each Transfer Course Equivalent Repeating Table row.<TD><SMALL>One row per person per academic period per transferred course per equivalent course<TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_STUDENT_WORK_EXPERIENCE_COMP_target.html">AS_STUDENT_WORK_EXPERIENCE</a><BR><TD><SMALL>Source composite table contains cooperative education information about the student population.  .<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_TRANSCRIPT_LEVEL_COMMENT_COMP_target.html">AS_TRANSCRIPT_LEVEL_COMMENT</a><BR><TD><SMALL>Transcript Comments by Level.<TD><SMALL>One row per person uid per level per comment sequence number.<TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_TRANSCRIPT_TERM_COMMENT_COMP_target.html">AS_TRANSCRIPT_TERM_COMMENT</a><BR><TD><SMALL>Transcript Comments by Term.<TD><SMALL>One row per person uid per level per academic period per comment sequence number.<TD><SMALL></TR>
+<TR vAlign="TOP" bgColor="FFFFCC"><TD><a href="AS_VALIDATION_COMP_target.html">AS_VALIDATION</a><BR><TD><SMALL>Source composite view contains a number of the source systems' validation table records. This view was meant to be used with reporting tools to create list of values as well as for cleansing purposes in the Enterprise Data Warehouse.<TD><SMALL><TD><SMALL></TR>
+<TR vAlign="TOP" ><TD><a href="AS_VETERAN_CERTIFICATION_COMP_target.html">AS_VETERAN_CERTIFICATION</a><BR><TD><SMALL>Source composite view contains the academic period data when the institution must report and certify credits for veterans to meet federal government reporting requirements for persons receiving veteran benefits.<TD><SMALL>one row per person per academic period per veteran certification credits<TD><SMALL></TR>
+</TABLE>
+<BR><B>Source Reports:</B><BR><BR>
+<TR vAlign="TOP" ><TD><a href="CALCULATION_COMP_source.html">CALCULATION</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="DAP_REQ_BLOCK_COMP_source.html">DAP_REQ_BLOCK</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="DECODE_OR_FUNCTION_COMP_source.html">DECODE OR FUNCTION</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="ETL_GENERATED_COMP_source.html">ETL GENERATED</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="FUNCTION_COMP_source.html">FUNCTION</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="GORINTG_COMP_source.html">GORINTG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="NA_COMP_source.html">NA</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SABAUDF_COMP_source.html">SABAUDF</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SABSUPL_COMP_source.html">SABSUPL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SARAATT_COMP_source.html">SARAATT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SARADAP_COMP_source.html">SARADAP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SARAPPD_COMP_source.html">SARAPPD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SARCHKL_COMP_source.html">SARCHKL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SARCHRT_COMP_source.html">SARCHRT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SARHEAD_COMP_source.html">SARHEAD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SARRRAT_COMP_source.html">SARRRAT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SARRSRC_COMP_source.html">SARRSRC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SCBCRSE_COMP_source.html">SCBCRSE</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SCBDESC_COMP_source.html">SCBDESC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SCBSUPP_COMP_source.html">SCBSUPP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SCRATTR_COMP_source.html">SCRATTR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SCRCORQ_COMP_source.html">SCRCORQ</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SCRGMOD_COMP_source.html">SCRGMOD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SCRLEVL_COMP_source.html">SCRLEVL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SCRRTST_COMP_source.html">SCRRTST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SCRSCHD_COMP_source.html">SCRSCHD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SCRSYLN_COMP_source.html">SCRSYLN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SCRSYLO_COMP_source.html">SCRSYLO</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFBETRM_COMP_source.html">SFBETRM</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFBFFSC_COMP_source.html">SFBFFSC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFBPLAN_COMP_source.html">SFBPLAN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFRAREG_COMP_source.html">SFRAREG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFRBKOP_COMP_source.html">SFRBKOP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFRBLPA_COMP_source.html">SFRBLPA</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFRBRDB_COMP_source.html">SFRBRDB</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFRBSEL_COMP_source.html">SFRBSEL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFRFFBK_COMP_source.html">SFRFFBK</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFRFFST_COMP_source.html">SFRFFST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFRPABC_COMP_source.html">SFRPABC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFRPLAN_COMP_source.html">SFRPLAN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFRSTCA_COMP_source.html">SFRSTCA</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFRSTCR_COMP_source.html">SFRSTCR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SFRWDRL_COMP_source.html">SFRWDRL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SGBSTDN_COMP_source.html">SGBSTDN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SGRADVR_COMP_source.html">SGRADVR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SGRATHC_COMP_source.html">SGRATHC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SGRCHRT_COMP_source.html">SGRCHRT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SGRCOOP_COMP_source.html">SGRCOOP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SGRDISA_COMP_source.html">SGRDISA</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SGRSACT_COMP_source.html">SGRSACT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SGRSATT_COMP_source.html">SGRSATT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SGRSPRT_COMP_source.html">SGRSPRT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SGRVETN_COMP_source.html">SGRVETN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHBDIPL_COMP_source.html">SHBDIPL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRATTC_COMP_source.html">SHRATTC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRATTR_COMP_source.html">SHRATTR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRDGDH_COMP_source.html">SHRDGDH</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRDGIH_COMP_source.html">SHRDGIH</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRDGMR_COMP_source.html">SHRDGMR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHREGPA_COMP_source.html">SHREGPA</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHREVNT_COMP_source.html">SHREVNT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRGPAC_COMP_source.html">SHRGPAC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRGPAL_COMP_source.html">SHRGPAL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRGRDE_COMP_source.html">SHRGRDE</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRLGPA_COMP_source.html">SHRLGPA</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTATC_COMP_source.html">SHRTATC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTATT_COMP_source.html">SHRTATT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTCKG_COMP_source.html">SHRTCKG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTCKL_COMP_source.html">SHRTCKL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTCKN_COMP_source.html">SHRTCKN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTGPA_COMP_source.html">SHRTGPA</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTMCM_COMP_source.html">SHRTMCM</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTRAM_COMP_source.html">SHRTRAM</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTRCE_COMP_source.html">SHRTRCE</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTRCR_COMP_source.html">SHRTRCR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTRIT_COMP_source.html">SHRTRIT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTTCM_COMP_source.html">SHRTTCM</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SHRTTRM_COMP_source.html">SHRTTRM</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SIBFACD_COMP_source.html">SIBFACD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SIBINST_COMP_source.html">SIBINST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SIRASGN_COMP_source.html">SIRASGN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SIRATTR_COMP_source.html">SIRATTR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SIRDPCL_COMP_source.html">SIRDPCL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SIRICNT_COMP_source.html">SIRICNT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SIRNIST_COMP_source.html">SIRNIST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SLBBLDG_COMP_source.html">SLBBLDG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SLBEVNT_COMP_source.html">SLBEVNT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SLBRDEF_COMP_source.html">SLBRDEF</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SLBRMAP_COMP_source.html">SLBRMAP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SLRBCAT_COMP_source.html">SLRBCAT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SLRMASG_COMP_source.html">SLRMASG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SLRPASG_COMP_source.html">SLRPASG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SLRRASG_COMP_source.html">SLRRASG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SMRPRLE_COMP_source.html">SMRPRLE</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SOBCACT_COMP_source.html">SOBCACT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SOBSBGI_COMP_source.html">SOBSBGI</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SOBTERM_COMP_source.html">SOBTERM</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORAINF_COMP_source.html">SORAINF</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORAPPT_COMP_source.html">SORAPPT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORBACD_COMP_source.html">SORBACD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORBCHR_COMP_source.html">SORBCHR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORBCNT_COMP_source.html">SORBCNT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORBDMO_COMP_source.html">SORBDMO</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORCONT_COMP_source.html">SORCONT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORDEGR_COMP_source.html">SORDEGR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORHSBJ_COMP_source.html">SORHSBJ</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORHSCH_COMP_source.html">SORHSCH</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORINTS_COMP_source.html">SORINTS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORLCUR_COMP_source.html">SORLCUR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORLFOS_COMP_source.html">SORLFOS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORMAJR_COMP_source.html">SORMAJR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORPCOL_COMP_source.html">SORPCOL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORTEST_COMP_source.html">SORTEST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SORTSPC_COMP_source.html">SORTSPC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SPBPERS_COMP_source.html">SPBPERS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SPRADDR_COMP_source.html">SPRADDR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SPRHOLD_COMP_source.html">SPRHOLD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SPRIDEN_COMP_source.html">SPRIDEN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SPRMEDI_COMP_source.html">SPRMEDI</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SPRTELE_COMP_source.html">SPRTELE</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SRBRECR_COMP_source.html">SRBRECR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SRRCHRT_COMP_source.html">SRRCHRT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SRRLEND_COMP_source.html">SRRLEND</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SRRRATT_COMP_source.html">SRRRATT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SRRRSRC_COMP_source.html">SRRRSRC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SSBDESC_COMP_source.html">SSBDESC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SSBOVRR_COMP_source.html">SSBOVRR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SSBSECT_COMP_source.html">SSBSECT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SSBXLST_COMP_source.html">SSBXLST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SSRATTR_COMP_source.html">SSRATTR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SSRBLCK_COMP_source.html">SSRBLCK</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SSRCORQ_COMP_source.html">SSRCORQ</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SSRFEES_COMP_source.html">SSRFEES</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SSRMEET_COMP_source.html">SSRMEET</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SSRRTST_COMP_source.html">SSRRTST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SSRSYLN_COMP_source.html">SSRSYLN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="SSRXLST_COMP_source.html">SSRXLST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVACAT_COMP_source.html">STVACAT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVACCG_COMP_source.html">STVACCG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVACCT_COMP_source.html">STVACCT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVACTC_COMP_source.html">STVACTC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVACTP_COMP_source.html">STVACTP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVACYR_COMP_source.html">STVACYR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVADMT_COMP_source.html">STVADMT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVAPDC_COMP_source.html">STVAPDC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVAPLS_COMP_source.html">STVAPLS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVAPRV_COMP_source.html">STVAPRV</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVARTP_COMP_source.html">STVARTP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVASCD_COMP_source.html">STVASCD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVASRC_COMP_source.html">STVASRC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVASTD_COMP_source.html">STVASTD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVATTR_COMP_source.html">STVATTR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVATTS_COMP_source.html">STVATTS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVATYP_COMP_source.html">STVATYP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVBLCK_COMP_source.html">STVBLCK</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVBLDG_COMP_source.html">STVBLDG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCACT_COMP_source.html">STVCACT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCAMP_COMP_source.html">STVCAMP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCAST_COMP_source.html">STVCAST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCHRT_COMP_source.html">STVCHRT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCIPC_COMP_source.html">STVCIPC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCITZ_COMP_source.html">STVCITZ</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCLAS_COMP_source.html">STVCLAS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCNTY_COMP_source.html">STVCNTY</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCOLL_COMP_source.html">STVCOLL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCOMT_COMP_source.html">STVCOMT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCOPC_COMP_source.html">STVCOPC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCSTA_COMP_source.html">STVCSTA</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCSTS_COMP_source.html">STVCSTS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVCTYP_COMP_source.html">STVCTYP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVDEGC_COMP_source.html">STVDEGC</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVDEGS_COMP_source.html">STVDEGS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVDEPT_COMP_source.html">STVDEPT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVDISA_COMP_source.html">STVDISA</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVDIVS_COMP_source.html">STVDIVS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVDPLM_COMP_source.html">STVDPLM</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVEDLV_COMP_source.html">STVEDLV</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVEGOL_COMP_source.html">STVEGOL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVEMPL_COMP_source.html">STVEMPL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVEMPT_COMP_source.html">STVEMPT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVESEL_COMP_source.html">STVESEL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVESTS_COMP_source.html">STVESTS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVETCT_COMP_source.html">STVETCT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVETHN_COMP_source.html">STVETHN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVETYP_COMP_source.html">STVETYP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVEVEN_COMP_source.html">STVEVEN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVEXAM_COMP_source.html">STVEXAM</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVFFVA_COMP_source.html">STVFFVA</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVFTYP_COMP_source.html">STVFTYP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVGCHG_COMP_source.html">STVGCHG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVGCMT_COMP_source.html">STVGCMT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVGEOD_COMP_source.html">STVGEOD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVGEOR_COMP_source.html">STVGEOR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVGMOD_COMP_source.html">STVGMOD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVGRST_COMP_source.html">STVGRST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVHAPS_COMP_source.html">STVHAPS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVHLDD_COMP_source.html">STVHLDD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVHOND_COMP_source.html">STVHOND</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVHONR_COMP_source.html">STVHONR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVINTV_COMP_source.html">STVINTV</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVLANG_COMP_source.html">STVLANG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVLCLAS_COMP_source.html">STVLCLAS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVLEAD_COMP_source.html">STVLEAD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVLEAV_COMP_source.html">STVLEAV</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVLEND_COMP_source.html">STVLEND</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVLEVL_COMP_source.html">STVLEVL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVLGCY_COMP_source.html">STVLGCY</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVLMOD_COMP_source.html">STVLMOD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVMAJR_COMP_source.html">STVMAJR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVMATL_COMP_source.html">STVMATL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVMDEQ_COMP_source.html">STVMDEQ</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVMEDI_COMP_source.html">STVMEDI</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVMRCD_COMP_source.html">STVMRCD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVMRTL_COMP_source.html">STVMRTL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVMSCD_COMP_source.html">STVMSCD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVNATN_COMP_source.html">STVNATN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVNCRQ_COMP_source.html">STVNCRQ</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVNCST_COMP_source.html">STVNCST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVNIST_COMP_source.html">STVNIST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVORIG_COMP_source.html">STVORIG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVORSN_COMP_source.html">STVORSN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVPRCD_COMP_source.html">STVPRCD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVPREV_COMP_source.html">STVPREV</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVPSCD_COMP_source.html">STVPSCD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVPTRM_COMP_source.html">STVPTRM</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVPTYP_COMP_source.html">STVPTYP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVQPTP_COMP_source.html">STVQPTP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVRADM_COMP_source.html">STVRADM</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVRATE_COMP_source.html">STVRATE</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVRECR_COMP_source.html">STVRECR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVRELG_COMP_source.html">STVRELG</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVREPS_COMP_source.html">STVREPS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVRESD_COMP_source.html">STVRESD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVRGRE_COMP_source.html">STVRGRE</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVROVR_COMP_source.html">STVROVR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVRRCD_COMP_source.html">STVRRCD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVRSLT_COMP_source.html">STVRSLT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVRSTA_COMP_source.html">STVRSTA</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVRSTS_COMP_source.html">STVRSTS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVRTYP_COMP_source.html">STVRTYP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSAPR_COMP_source.html">STVSAPR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSBGI_COMP_source.html">STVSBGI</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSCHD_COMP_source.html">STVSCHD</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSESS_COMP_source.html">STVSESS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSITE_COMP_source.html">STVSITE</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSPON_COMP_source.html">STVSPON</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSPSR_COMP_source.html">STVSPSR</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSPST_COMP_source.html">STVSPST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSSTS_COMP_source.html">STVSSTS</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSTAT_COMP_source.html">STVSTAT</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSTST_COMP_source.html">STVSTST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSTYP_COMP_source.html">STVSTYP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVSUBJ_COMP_source.html">STVSUBJ</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVTELE_COMP_source.html">STVTELE</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVTERM_COMP_source.html">STVTERM</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVTMST_COMP_source.html">STVTMST</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVTRCN_COMP_source.html">STVTRCN</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVVTYP_COMP_source.html">STVVTYP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVWAIV_COMP_source.html">STVWAIV</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVWAPP_COMP_source.html">STVWAPP</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVWDRL_COMP_source.html">STVWDRL</a><BR></TR>
+<TR vAlign="TOP" ><TD><a href="STVWRSN_COMP_source.html">STVWRSN</a><BR></TR>
+<BR><BR><SMALL>Ver: </SMALL>
+<!-- Page generated: 19-JUL-2021 12:07:28 -->
+</body></html>
